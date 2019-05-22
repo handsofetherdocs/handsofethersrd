@@ -1,0 +1,69 @@
+site_name: Hands of Ether
+
+extra_css: [extra.css]
+
+nav:
+    - Home: index.md
+    - Character Creation: charactercreation.md
+
+    - Lineages:
+        - 'Lineages': lineages/lineages.md
+        - 'Avan':   lineages/avan.md
+        - 'Avatar': lineages/avatar.md
+        - 'Dym':    lineages/dym.md
+        - 'Drake':  lineages/drake.md
+        - 'Drow':   lineages/drow.md
+        - 'Dwarf':  lineages/dwarf.md
+        - 'Elf':    lineages/elf.md
+        - 'Faun':   lineages/faun.md
+        - 'Fir':    lineages/fir.md
+        - 'Geni':   lineages/geni.md
+        - 'Gnome':  lineages/gnome.md
+        - 'Goblin': lineages/goblin.md
+        - 'Golem':  lineages/golem.md
+        - 'Halfling':  lineages/halfling.md
+        - 'Human':  lineages/human.md
+        - 'Hyde':  lineages/hyde.md
+        - 'Kryn':  lineages/kryn.md
+        - 'Mer':  lineages/mer.md
+        - 'Mica':  lineages/mica.md
+        - 'Minotaur':  lineages/minotaur.md
+        - 'Nova':  lineages/nova.md
+        - 'Ogre':  lineages/ogre.md
+        - 'Orc':  lineages/orc.md
+        - 'Zurn': lineages/zurn.md
+        - 'Custom Lineages': lineages/custom.md
+
+    - Classes:
+        - 'Classes': classes/classes.md
+        - 'Bard': classes/bard.md
+        - 'Cleric': classes/cleric.md
+        - 'Knight': classes/knight.md
+        - 'Mage': classes/mage.md
+        - 'Monk': classes/monk.md
+        - 'Ranger': classes/ranger.md
+        - 'Rogue': classes/rogue.md
+        - 'Sage': classes/sage.md
+        - 'Warrior': classes/warrior.md
+        - 'Witch': classes/witch.md
+        - 'General Skills': classes/generalskills.md
+
+    - Rules:
+        - Adventuring: adventuring.md
+        - Combat: combat.md
+        - Magic: magic.md
+        - Conditions: conditions.md
+        - Catastrophes: catastrophes.md
+        - Items: items.md
+        - Companions: companions.md
+
+    - Guide:
+        - Guide Resources: guideresources.md
+        - Encounters: encounters.md
+
+
+
+
+markdown_extensions:
+    - toc:
+        permalink: "#"

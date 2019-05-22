@@ -1,0 +1,18 @@
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+**Cobalt Claw** 
+The sapphire hand was gifted to the primordial small folk, and the beast folk, their cousins. It was wielded by the first dwarves, gnomes, and halflings. It is the Hand of hiding, retribution, and shadows. The wielder of this Hand gains the Cunning Strike ability, regardless of their class. The wielder can spend 1 Action to move and shape up to 5 Bulk of natural stone or earth in any manner they choose. The wielder of this hand gains the spells Invisibility, Traceless, Earth Pillar, Quake, Heat Metal, Molten Eruption, and Shatter. The wielder can cast each of these spells once per Rest. Lastly, the wielder of this hand can spend 2 Stamina to become Invisible for up to 1 hour as a Free Action.   
+
+**Ruby Gauntlet** 
+The crimson crystal hand first belonged to the primordial scaled folk. It is the warrior’s hand, fueled by the spirits of lost heroes. It is the hand of rage, heritage, and blood. The wielder of this hand gains the Strike ability, regardless of their class. The wielder’s damage for this ability becomes 1d10. The wielder gains the Maim skill, and gains the 179 spells Crystallize, shield, Nautilus, Sacrifice, and Heal. The wielder can cast each of these spells once per Rest for no Mana cost.   
+
+</div>
+<div style="grid-column: 2/3; margin-right: 13px;">
+**Woven Hand** 
+The wooden hand, old and knotted, is ever-moving with roots and bark. This was the Hand bestowed to the men and elves of the jungle in the ancient age. The wielder of this hand gains the Weave ability, which they can use three times per Rest. They gain the Ether Bender skill, regardless of their level. Lastly, the wielder can spend 1 Action and 2 Stamina to cause an Arcane Anomaly to occur.   
+
+**Pale Hand** 
+Banished to the deepest trenches of the Ether during the Pale War, the hand of the unborn god of anticreation and nullification is a malevolent instrument of undoing and chaotic corruption. Its gaunt ivory form causes horror to all who see it. When first attached to a new wielder, that wielder must succeed a Will check against a DC of 10 or have their soul lost forever. The wielder’s soul is lost, and that Adventurer becomes consumed by the Hand’s corruption. The lost Adventurer falls under the Guide’s control. If the wielder succeeds their Will check, they gain the Pale Hand. The wielder can spend 1 Action and 2 Stamina to cause a creature within 500 feet to become Corrupted. The wielder gains the Hex ability, regardless of their class. The wielder gains the spells Black Crown, Vex, Pale Blade, Wither, and Bane. The wielder can cast each of these spells once per Rest for no Mana cost. The wielder of this hand can always spend Stamina as if it were Mana, or spend Mana as if it were Stamina. Lastly, once per Rest, the wielder of the Pale Hand can point at a creature within 100 feet of it in an attempt to sever that creature’s Etheric thread. The target must make a Will check against a DC of 10 or die instantly. If the target dies as a result of this effect, they cannot be resurrected, and their soul is shattered and lost.  
+
+</div>
+</div>

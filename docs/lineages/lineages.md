@@ -1,0 +1,6 @@
+# Lineages
+A number of different fantastical species reside within this world. Each lineage has their own set of inherent skills, called lineage skills, that they can use to aid them during their adventures. Each lineage also has a number of properties, called lineage properties, that determine their basic physical attributes. These lineage properties modify an Adventurer’s ability scores, as each lineage has a physicality and culture that makes them more naturally adept at certain activities and practices.  
+
+Your Health, Speed, and Size are also determined by your lineage properties. You begin with an amount of Health equal to your “Health at 1st level” property. You gain an additional amount of Health each time you level up equal to your chosen lineage’s “Health Increase at Level Up” property.  
+
+While creating your Adventurer, keep in mind that the default lineages presented here are merely a guideline for the mechanical properties of your Adventurer. The cultures and creatures of this world are made up of a wide spectrum. If you can imagine it, you can play it. There are rules found at the end of this section that can be used to create your own, custom lineage in a reasonable manner.

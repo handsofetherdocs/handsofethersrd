@@ -1,0 +1,26 @@
+Hands of Ether PDF Typo Catching
+
+In making the SRD website for hands of ether, I came across a few typos and documented them here.
+Typo's marked [potential] could be typos but might not be
+[Suggestion]'s are just things that might make the text flow a little better - not typos
+
+Page 3, Rolling Dice 												- Double period in 2nd paragraph ..."they automatically succeed their check, regardless of their relative ability score modifier.."
+[Potential] Page 9, Creating a Level 1 Adventurer; Quick Reference 	- 'Experience' instead of 'equipment' at bottom of list
+Page 9, Determining Default Scores at Level 1; Quick Reference 		- (Stamina) Equal to the your Adventurer’s Might score.
+Page 17, races 														- Dym is before drake even through it should after dwarf
+Page 44, bard spells, - pigment figment	(great spell name btw)		- 1st line of Description reads "You thin, prismatic paintbrush as long as a dagger appears in your hand."
+Page 63, cleric spells, feral's Friends								- duplicated and, "The rats automatically hit and and deal 1d4 damage to the target"
+Page 64, cleric spells, maxwells obsession							- Says thia instead of this, "Thia spirit wears antlers"
+Page 72, knight skills	 											- seige skill is spelt incorrectly (should be siege)
+[Suggestion] Page 75, mage skills									- Reword the dabbler skill from "You gain 2 spells of your choice from any other spell lists other than the Mage spell list." to "You gain 2 spells of your choice from any spell list other than the Mage spell list."
+Page 100, ranger skills												- scout skill has the word travelled misspelt as 'traveled' ("Whenever you use this skill, you are considered to have traveled one mile ahead of your party.")
+Page 130, witch spells												- Double period at end of paragraph "become Wounded in addition to Bleeding.."
+Page 136, witch Spells												- Wither spell has a capital I ("WIther")
+Page 149, creature size and Space									- "There are six sizes a creature can be" is followed by a list with 5 sizes
+[Suggestion] Page 163, wounds tables								- Description of gored doesnt seem to match its in game effect "A massive injury in your abdomen causes you to become all but defenseless to further attacks. Weary and constantly bent over in pain, you lose 1 additional Stamina whenever you lose Stamina or spend Stamina."
+Page 165, items														- Says 'is' instead of 'are': "The exceptions to this rule >is< armor, which is automatically and passively used if it is being worn, and ranged weaponry, which requires 1 Action to reload before being used to attack again."
+Page 167, items														- Plural of ballista should be ballistae, currently is ballistas, "Ballistas are considered ranged weapons for the purpose of proficiencies."
+[Potential] Page 170, items, weapon and shield properties			- Masterwork and mithril armor dont have capital letters at the start
+Page 191, narrative deviation, 2nd paragraph						- seperate is spelt wrong, should be separate "...the Guide and the player must have a session alone and seperate from the Rest of the group to determine..."
+Page 203, necroid encounter											- stat block out of order, type comes after primary ability
+Page 210, ichor lord encounter										- considers is spelt 'consideres' "...place in the world. It consideres its role in the world..."
