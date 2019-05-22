@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Items - Hands of Ether</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../conditions/">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Items</a>
+</li>
+                                    
+<li >
+    <a href="../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../catastrophes/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../companions/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#items">Items</a></li>
+            <li><a href="#combat-gear">Combat Gear</a></li>
+            <li><a href="#firearms">Firearms</a></li>
+            <li><a href="#special-weapons">Special Weapons</a></li>
+            <li><a href="#weapon-properties">Weapon Properties</a></li>
+            <li><a href="#armor-and-shield-properties">Armor and Shield Properties</a></li>
+            <li><a href="#kits">Kits</a></li>
+            <li><a href="#potions">Potions</a></li>
+            <li><a href="#adventuring-gear">Adventuring Gear</a></li>
+            <li><a href="#custom-magical-items">Custom Magical Items</a></li>
+            <li><a href="#relics">Relics</a></li>
+            <li><a href="#hands-of-ether">Hands of Ether</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="items">Items<a class="headerlink" href="#items" title="Permanent link">#</a></h1>
+<p>Adventurers rely heavily on their gear and equipment to carry them through challenging endeavors. Some Adventurers rely on these items more than others, such as a Warrior’s weaponry. Others are able to create and fabricate items to aid themselves and their companions. Adventurers must have a proficiency in a type of weaponry or form of protection in order to be able to use them. A proficiency in magic is not required to use items that are enchanted. Enchanted weapons, shields, and armor can be used by any Adventurer as long as they are proficient in that form of weaponry or protection.  </p>
+<p>Most items cost 1 Action to use. The exceptions to this rule is armor, which is automatically and passively used if it is being worn, and ranged weaponry, which requires 1 Action to reload before being used to attack again.</p>
+<h2 id="combat-gear">Combat Gear<a class="headerlink" href="#combat-gear" title="Permanent link">#</a></h2>
+<p><div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Shield</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Defense Bonus:</em> +2<br />
+<em>Bulk:</em> 1  </p>
+<p>Target, crested, buckler, tower; shields come in many shapes, sizes, and design. Adventurers can raise their shield for 1 Action to add that shield’s Defense bonus to their total current Defense.</p>
+<p><strong>Armor</strong><br />
+<em>Use:</em> Passive<br />
+<em>Defense Bonus:</em> +2<br />
+<em>Bulk:</em> 2  </p>
+<p>Whether they prefer leather, plate, or chainmail, all Adventurers can find security while wearing a protective suit of armor. Wearing armor increases an Adventurer’s Defense by 2.</p>
+<p><strong>Light Melee Weapon</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 5 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>Daggers, short swords, maces, spiked gauntlets; each Adventurer has a different preference when dealing with threats in a dungeon. Light melee weapons occupy one of the wielder’s hands.</p>
+<p><strong>Heavy Melee Weapon</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d8<br />
+<em>Range:</em> 5 feet<br />
+<em>Bulk:</em> 2  </p>
+<p>Some Adventurers prefer to wield hefty, two handed weapons. A heavy melee weapon could be a massive warhammer or an over-sized flail. Heavy melee weapons occupy both of the wielder’s hands.  </p>
+<p></div>
+<div style="grid-columns: 2/3; margin-left: 13px">
+<strong>Ranged Weapon</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 100 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>Bows, crossbows, or slingshots are some examples of ranged weapons. Sometimes it's best not to get too close to your enemies. ranged weapons are a safer alternative, but are slower to use than other weapons due to their need to be reloaded with an Action after each attack.  </p>
+<p><strong>Reach Weapon</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 10 feet <br />
+<em>Bulk:</em> 2</p>
+<p>Spears, halberds, warhammers, tridents, and other long-handled weaponry have an extended reach and are favored by those that live a martial lifestyle. They are considered reach weapons in terms of proficiency and crafting.   </p>
+<p><strong>Improvised Weapon</strong><br />
+<em>Use:</em> 1 Action   <br />
+<em>Damage:</em> 1d4   <br />
+<em>Range:</em> 5 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>Sometimes a fire poker or a shovel is all an Adventurer has to defend themselves with. The Guide determines whether or not an Adventurer is proficient with a certain improvised weapon.</p>
+<p></div>
+</div></p>
+<h2 id="firearms">Firearms<a class="headerlink" href="#firearms" title="Permanent link">#</a></h2>
+<p>These rare ranged weapons are a technological marvel which use a combination of gunpowder, intricate metalwork, and alchemical combustion to launch shells and balls of iron at a target to devastating effects. Like all ranged weapons, firearms take 1 Action to reload. Some firearms, however, hold more ammunition at a time than typical ranged weapons. Firearms with larger ammunition capacities still take 1 Action to reload, but do not have to be reloaded until they have been completely depleted of ammunition.</p>
+<p>Due to these weapons not being completely perfected, they are often prone to malfunctions. Each firearm has a unique property called a “misfire rate”. Whenever a wielder of a firearm rolls a natural roll result of a firearm’s misfire or lower on their attack roll, the firearm becomes Broken. If an Adventurer does not possess a skill to fix a Broken firearm, they may need to seek out a powerful artificer within the world to fix their broken weapon in exchange for Coin.<br />
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;"></p>
+<p><strong>Flintlock</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 50 feet<br />
+<em>Ammunition Capacity:</em> 1<br />
+<em>Misfire:</em> 3<br />
+<em>Bulk:</em> 1  </p>
+<p>A simple gunpowder pistol used by bandits and thieves. The device is more intimidating than useful.  </p>
+<p><strong>Musket</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d8<br />
+<em>Range:</em> 100 feet<br />
+<em>Ammunition Capacity:</em> 4<br />
+<em>Misfire:</em> 4<br />
+<em>Bulk:</em> 2  </p>
+<p>A simple gunpowder rifle used by sharpshooters and militant factions as both a sign of power and organization.
+</div>
+<div style="grid-columns: 2/3; margin-left: 13px">
+<strong>Revolver</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d8<br />
+<em>Range:</em> 100 feet<br />
+<em>Ammunition Capacity:</em> 3<br />
+<em>Misfire:</em> 3<br />
+<em>Bulk:</em> 1  </p>
+<p>Made of wood, mithril, or steel, these complex firearms have a rotating chamber to allow a larger ammunition capacity. Most are family heirlooms passed down from a greater time.  </p>
+<p></div>
+</div></p>
+<h2 id="special-weapons">Special Weapons<a class="headerlink" href="#special-weapons" title="Permanent link">#</a></h2>
+<p>These special weapons are just as rare and rewarding to come across as magical items in some cases. The following is a list of a few items that can be found within the world of Hands of Ether that do not fall into any of the default weapon categories.
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Ballista</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 2d10<br />
+<em>Range:</em> 120 feet<br />
+<em>Ammunition Capacity:</em> 1<br />
+<em>Bulk:</em> 8  </p>
+<p>This large siege weapon fires a massive bolt that can puncture an enemy for an immense amount of damage. The weapon requires 2 creatures to lift and move it, and must be placed on the ground to fire. In addition, it costs 2 Actions to reload the ballista. Ballistae are considered ranged weapons for the purpose of proficiencies.</p>
+<p><strong>Bomb</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 2d4<br />
+<em>Range:</em> 100 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>These simple bulbs of gunpowder have a hempen fuse that can be lit, allowing the wielder to toss the device before it explodes and peppers enemies with fire and shrapnel. This weapon is considered a ranged weapon. On a hit, a bomb deals 2d4 damage to both the target and any other creatures within 10 feet of the target.</p>
+<p><strong>Boomerang</strong><br />
+<em>Use:</em> 1 Action, 1 Action to catch<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 50 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>These curved wooden weapons are used to bludgeon enemies from a distance. After each attack, the boomerang will curve through the air and return to its wielder’s hand if the wielder’s attack roll is successful. Boomerangs are considered ranged weapons for the purpose of proficiencies and crafting.</p>
+<p><strong>Breaker Blade</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d4<br />
+<em>Defense Bonus:</em> 1<br />
+<em>Range:</em> Touch<br />
+<em>Bulk:</em> 1  </p>
+<p>These short, jagged blades are known as parrying daggers in some circles, and can be used to fend off attacker by catching and or disabling their weapons. Breakers can be used either to attack or to defend at the cost of 1 Action. If the breaker successfully defends against an attack roll, the wielder of the breaker rolls on the breaker table to determine the result.</p>
+<table>
+<thead>
+<tr>
+<th>d4</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The attacker breaks free from the blade’s grip and suffers no effects.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Both the wielder of the breaker blade and their attacker become Restrained.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The attacker’s weapon is ripped from their grasp and thrown 10 feet in a random direction.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The attacker’s weapon, if unenchanted and nonmagical, becomes Broken.</td>
+</tr>
+</tbody>
+</table>
+<p></div>
+<div style="grid-columns: 2/3; margin-left: 13px"></p>
+<p><strong>Net</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Range:</em> 10 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>Hempen rope knitted together into a loose pattern. Nets cannot cause damage, but can be used to grapple and entangle creatures. The wielder of a net can throw their net in an attempt to entangle a creature. The wielder of the net makes an attack roll against an enemy. On a hit, the target becomes Encumbered. On a critical hit, the target becomes Restrained. The target can spend 2 Actions to escape from the net, ending these effects.</p>
+<p><strong>Trident</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 10 feet<br />
+<em>Bulk:</em> 2   </p>
+<p>Tridents are reach weapons that can be used to make proper strikes underwater. Attack rolls made with a trident while underwater are rolled normally, and are not rolled at disadvantage.</p>
+<p><strong>Whip</strong><br />
+<em>Use:</em> 1 Action<br />
+<em>Damage:</em> 1d6<br />
+<em>Range:</em> 10 feet<br />
+<em>Bulk:</em> 1  </p>
+<p>Whips and other flexible reach weapons can deal a fearsome blow and have a chance to Restrain the target. Whenever you roll a critical hit with a whip, the targeted creature becomes Restrained. Whips are considered reach weapons for the purpose of proficiencies.
+</div>
+</div></p>
+<h2 id="weapon-properties">Weapon Properties<a class="headerlink" href="#weapon-properties" title="Permanent link">#</a></h2>
+<p>Some pieces of combat gear have special properties associated with them which alter their functionality.
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Cursed</strong><br />
+Weaponry that has been infected by an evil force. On a hit, cursed weapons deal an additional amount of damage equal to the wielder’s Will score modifier. If an Adventurer rolls a natural 1 on an attack roll with a cursed weapon, they become Corrupted.   </p>
+<p><strong>Gruesome</strong><br />
+Gruesome weapons are especially brutal or nefarious in their design, such as a heavy obsidian hammer or a barbed broadsword. A creature hit with a gruesome weapon must succeed a Might check against a DC of 5 or become Wounded.   </p>
+<p><strong>Holy</strong><br />
+When a holy weapon hits a creature that is innately evil, it deals an additional 1d4 damage.   </p>
+<p><strong>Honed</strong><br />
+Honed weaponry is enchanted or built to ensure a better aim or a more powerful attack. Honed weaponry grants a +1 bonus to both attack rolls made with that weapon as well as damage dealt by the weapon.   </p>
+<p><strong>Keen</strong><br />
+On a hit, keen weapons cause a creature to become Bleeding.   </p>
+<p><strong>Mythic</strong><br />
+A weapon with a legendary history. Although lesser in magnitude and power than a fable relic or a hand of Ether, a mythic weapon still has the power of stories and determination behind it. These two forces empower the mythic weapon far beyond the reaches of a typical piece of steel or shining shield. The Guide creates the abilities of a mythic weapon, and then keeps those abilities a secret until that weapon has been exalted. Until it is exalted, the item acts as a default weapon. To become exalted, the wielder of the mythic weapon must perform two tasks of the Guide’s choice, such as Learn and speak the weapon’s true name. Perform a heroic act with the weapon. Meditate on the weapon alone, for 1 week. Afterwards, the mythic weapon’s potential is unlocked, gaining magical abilities.  </p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;"></p>
+<p><strong>Poisoned</strong><br />
+The first time a creature is hit with a poisoned weapon, the target must succeed a Might check against a DC of 10 or become Sapped. The target remains Sapped until it is cured by a spell or skill. After a poisoned weapon is used to make a successful attack roll, the weapon is no longer considered poisoned.   </p>
+<p><strong>Swift</strong><br />
+Swift weapons can be used to make an attack roll as a Reaction whenever initiative is rolled, as long as the wielder already has the swift weapon drawn. This effect cannot be used if the wielder is not within the swift weapon’s range of a target at the beginning of combat.   </p>
+<p><strong>Silver</strong><br />
+Silver weaponry ignores a creature's resistance to nonmagical damage.  </p>
+<p></div>
+</div></p>
+<h2 id="armor-and-shield-properties">Armor and Shield Properties<a class="headerlink" href="#armor-and-shield-properties" title="Permanent link">#</a></h2>
+<p><div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Copper</strong><br />
+While worn, any damage the wearer takes that is dealt by acid or thrown potions is reduced by 1d4.   </p>
+<p><strong>Divine</strong><br />
+The wearer of this armor regains 1d4 Health whenever they take damage, and can cast the cantrip Celestial Spark from the armor once per Rest.   </p>
+<p><strong>Luffwood</strong><br />
+A set of armor made from wine-colored wood which twists fate in the favor of those who wear it. Once per Rest, the wearer of this armor can make an ability check or attack roll of their choice with advantage.   </p>
+<p><strong>Masterwork</strong><br />
+Armor or shields that have been crafted to be especially protective, and grants a Defense bonus of +3.   </p>
+<p><strong>Mithril</strong><br />
+Armor made from mithril becomes 0 Bulk while worn.   </p>
+<p><strong>Mortium</strong><br />
+A brittle, violet colored suit of armor which can absorb liquids. The wearer can pour a potion into its groves to store that potion within the armor. The wearer can then release that potion into their skin at any point, consuming the stored concoction as a Reaction.</p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;"></p>
+<p><strong>Null</strong><br />
+Nullified armor makes the wearer immune to psychic intrusions and arcane spying. While wearing null armor, the wearer is considered impervious to location spells and cannot be scryed on.   </p>
+<p><strong>Opalwood</strong><br />
+A bright pink suit of armor made from grainy wood. Once per Rest, the wearer of this armor can choose to regain 1d8 Health as a Free Action.   </p>
+<p><strong>Weeperwood</strong><br />
+An alabaster suit of wooden armor. Once per Rest, the wearer of this armor can choose to regain 1d4 Mana as a Free Action.   </p>
+<p><strong>Zerchsium</strong><br />
+A dense, brassy set of armor that grants its wearer a +1 bonus to their spell DC while it is worn. It is especially susceptible to enchantments.  </p>
+<p></div>
+</div></p>
+<h2 id="kits">Kits<a class="headerlink" href="#kits" title="Permanent link">#</a></h2>
+<p>Kits are small packs of trinkets, items, and tools that can help Adventurers in particular situations. Each kit weighs 1 Bulk and costs 10 Coin.
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Aquatic Kit</strong><br />
+Includes flippers, goggles, a snorkel, and an enchanted glowing rod to provide a light source while underwater. When in the possession of a creature, this kit allows that creature to move through water as if it was normal terrain instead of rough terrain, and grants advantage to creatures whenever they make a Might check to resist drowning in combat.   </p>
+<p><strong>Blood Kit</strong><br />
+Includes one Health potion, one Purity potion, one bandage, medical threading and needles, and a splint. A creature can spend 1 Action to use a blood kit in an attempt to stabilize an Unconscious creature. To do so, they must be touching the Unconscious creature and succeed a Wit check against a DC of 10. On a success, the target becomes Stabilized. On a failure, the blood kit is used improperly and is considered expended.   </p>
+<p><strong>Delve Kit</strong><br />
+This kit contains 50 feet of hemp rope, a grappling hook, 5 pitons, and 1 rock hammer to aid a group of Adventurers when making a treacherous climb or spelunking in caverns. This kit grants advantage to creatures who possess it on any Might or Agility checks made to climb.   </p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;">
+<strong>Fabrication Kit</strong><br />
+A set of tools that can be used by Adventurers with the necessary skills to create items, potions, and weaponry on their travels without the need for a forge or work table.</p>
+<p><strong>Parchment Kit</strong><br />
+A set of writing materials used to copy spells and recipes, draw maps, write letters, and other such activities. The kit includes a number of sealed paints, sticks of chalk, scalpels, hemp, fabrics, brushes, quills, inks, parchment, a stick of wax, and a brass stamp are included in this kit.   </p>
+<p><strong>Wicked Kit</strong><br />
+Includes a pack of 50 ball bearings, 50 caltrops, a crowbar, three lock picks, and other nefarious accoutrement utilized by criminals, thieves, and assassins.   </p>
+<p><strong>Wild Kit</strong><br />
+Includes two bedrolls, one simple canvas tent, a flask, a small mess kit, cooking supplies, and a tinderbox used to set up camp and ensure a comfortable Rest even in the harshest of conditions.  </p>
+<p></div>
+</div></p>
+<h2 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">#</a></h2>
+<p>Potions are consumable concoctions that can be used by Adventurers to alter their condition through the power of alchemy. Potions weigh 0 Bulk, cost 5 Coin each, and cost 1 Action to use. Once a potion is used, it is spent and cannot be used again. The vial that held the potion, however, remains in the Adventurer’s possession. For the purposes of proficiency, all potions are considered ranged weapons if they are tossed at an enemy as an attack roll.  </p>
+<h3 id="brewing-potions-advanced-rule">Brewing Potions; Advanced Rule<a class="headerlink" href="#brewing-potions-advanced-rule" title="Permanent link">#</a></h3>
+<p>Much like creating custom spells, the potions listed in the ‘Potions’ section are merely a framework of what a potion has the potential to do. At the Guide’s discretion, Adventurers can brew new potions with custom effects. Potions can have any effect that the brewer wishes.  </p>
+<p>The Adventurer determines the potion’s effect and how it functions, and the Guide modifies and balances it accordingly. To brew a potion in this way, the Adventurer will have to collect the necessary ingredients, determined by the Guide. The recipe could call for any combination of up to three ingredients that are required to brew the concoction.  </p>
+<p>The Adventurer must then journey to and collect these designated ingredients in-game. After crafting the custom potion, the Adventurer must make a Wit check against a DC of 5 to brew the tincture. On a failure, a Mechanical Mishap occurs and the potion as intended becomes useless.<br />
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Acid</strong><br />
+This harmful, burning concoction can be lobbed at a target within 50 feet of the wielder. Make an attack roll. On a hit, acid deals 1d6 damage. A vial of acid can also be used to melt any nonmagical item that weighs less than 1 Bulk.   </p>
+<p><strong>Bandage</strong><br />
+With the help of a bandage, a creature can use 1 Action to apply a wrap around an injury. Using a bandage on a creature in this manner cures the Bleeding condition on that creature.   </p>
+<p><strong>Goop</strong><br />
+A thick, adhesive material that can be lobbed at a target within 50 feet of the wielder. On a successful attack roll, the target affected by this gelatinous substance becomes Restrained until they can succeed a Might check against a DC of 10 to escape.   </p>
+<p><strong>Healing Potion</strong><br />
+A thick, gelatinous brew of crimson liquid that heals the drinker for 1d6 Health.   </p>
+<p><strong>Mana Potion</strong><br />
+A silky cobalt tonic filled with magical energy that restores the drinker’s Mana by 1d6.   </p>
+<p><strong>Poison</strong><br />
+A dose of a toxic concoction that can be used to poison other creatures by putting it on food or that can be used to apply the poisoned property to a single weapon. If a creature touches or ingests poison, they must succeed a Might check against a DC of 10 or become Sapped until their next Rest.   </p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;">
+<strong>Ration</strong><br />
+A tin filled with dried meat, berries, spiced bread, and rice. Creatures who consume a ration regain 1d6 Stamina.   </p>
+<p><strong>Remedy</strong><br />
+A frothy gray concoction that cures the drinker of the Sapped, Blinded, or Stunned condition.   </p>
+<p><strong>Haste Tonic</strong><br />
+A vibrant violet tincture with a small feather inside that increases the drinker’s Speed by 10 for 1 hour.   </p>
+<p><strong>Serenfruit Wine</strong><br />
+A salted violet wine which causes its drinker to become immune to the Sapped condition for 10 minutes.   </p>
+<p><strong>Sinkroot Tea</strong><br />
+A hot cup of tea can reinvigorate a worn down or stressed Adventurer. Creatures that drink a dose of Sinkroot regain 1d4 Stamina and 1d4 Health.   </p>
+<p><strong>Vibe</strong><br />
+A square glass vial with a creamy, bark-colored tonic inside. It is an expensive, synthetic substance that evokes a sense of pressure and expediency its drinker. Upon ingesting, the drinker gains 1 additional Action for 1 minute.  </p>
+<p></div>
+</div></p>
+<h2 id="adventuring-gear">Adventuring Gear<a class="headerlink" href="#adventuring-gear" title="Permanent link">#</a></h2>
+<p><div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Air Terrarium</strong><br />
+A glass box reinforced with mithril that contains a plethora of vegetation. The box straps onto the back of a creature and has a rubberized tube that connects to a flexible and comfortable face mask. This device is most often used by those exploring flooded caverns or rooms filled with toxic gases.   </p>
+<p><strong>Backpack</strong><br />
+A canvas bag used to hold supplies. The backpack holds 10 Bulk within it. While worn, the Bulk of both the backpack itself as well as the Bulk carried within the backpack do not count against the wearer’s maximum Bulk limit.   </p>
+<p><strong>Bell</strong><br />
+A simple brass bell that can be used as an audible alarm.   </p>
+<p><strong>Compass</strong><br />
+A simple magnetized device that points north. All Wit checks made in an attempt to navigate are rolled with advantage while the navigator is holding a compass.   </p>
+<p><strong>Crystalline Chassis</strong><br />
+These masterwork crystal containers can store a soul within, and have been enchanted to power nonmagical machinery using the soul’s energy. They could be used to power an automaton, mining machine, or even a simple clock.   </p>
+<p><strong>Flask</strong><br />
+A brass container that can hold up to 3 doses of a single type of liquid.   </p>
+<p><strong>Hand Lens</strong><br />
+Used primarily by investigators, these ornate lenses magnify a user’s visual acuity, granting advantage whenever they make a Wit check in an attempt to investigate an item, creature, or area.   </p>
+<p><strong>Incense</strong><br />
+A stick of scented powder that can be burned to assist in a number of ways. If a Mage casts a spell as a ritual while incense is burning within 100 feet of them, an Arcane Anomaly cannot occur. In addition, incense can be burned to turn away undead creatures. A single stick of incense burns for 10 minutes before it goes out and becomes Broken.   </p>
+<p><strong>Light Source</strong><br />
+Torches, lanterns, and candles shed light in a 10 foot radius area around its wielder, assisting Adventurers in darkened areas.   </p>
+<p><strong>Pickaxe</strong><br />
+These wood and iron tools can be used to dig into stone, exposing valuable minerals or escaping a collapsed mine. It costs 2 Stamina to dig for an hour with this tool. After an Adventurer uses this item to dig into natural stone for 1 hour, roll 1d6 to determine what they unearth.  </p>
+<table>
+<thead>
+<tr>
+<th>d6</th>
+<th>Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Bedrock:</strong> A strong blow on a layer of stronger underlying stone breaks the pickaxe.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>We’ve Dug Too Deep:</strong> A chasm is exposed by your digging, and a tunneling creature awaits within, eager for the digger’s flesh.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>An Unclear Enemy:</strong> An underground gas seeps through the cracks you’ve made in the stone. You become Sapped, and are unable to smell anything for the next week.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>This’ll Warm the Bones:</strong> You expose and collect 1 Bulk worth of burnable coal.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>That’ll Do:</strong> You unearth precious gems worth a total of 50 Coin.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Eureka:</strong> You unearth an especially rare material worth a total of 110 Coin.</td>
+</tr>
+</tbody>
+</table>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;">
+<strong>Shovel</strong><br />
+Shovels can be used to dig a hole. It takes 10 minutes to dig away an area of earth and stone spanning a radius of 5 feet.</p>
+<p><strong>Telescope</strong><br />
+A complex brass-lined lens which a creature can peer through to observe their surroundings within a 3 mile radius.   </p>
+<p><strong>Instrument</strong><br />
+Harps, lutes, drums, and other such musical instruments are rare and valuable, but can go a long way for the morale of an adventuring party. If played during a Rest, each character who can hear the instrument gains 2 Sanity points from their Rest instead of the default of 1.   </p>
+<p><strong>Glider</strong><br />
+A gnome-made harness that has a set of leathery wings within it. The glider can be used to glide through the air. If a creature falls while wearing a glider, they can spend 1 Action to activate it and reduce their fall damage a number of points equal to their 1d6 + their Agility score modifier.   </p>
+<p><strong>Rod</strong><br />
+These enchanted wands hold 1d6 charges of a certain spell. If a spell is conjoined with a rod through enchantment and the rod is blank before the enchanting, the spell can be cast 1d6 times from the rod even though the rod has been enchanted with a single spell. After the rod’s charges of the spell it contains are used, the rod becomes a blank rod again. Using a rod to cast a spell it is enchanted with requires no Mana, and only costs 1 Action, regardless of the Action cost or Mana cost of the spell which the rod holds.   </p>
+<p><strong>Orb</strong><br />
+Polished crystal spheres that can be enchanted to hold a single spell. It costs a creature 1 Action to activate an orb, releasing the enchantment it holds. The spell which the orb holds is immediately cast as a result, no matter the casting time of the particular spell enchanted within the orb.   </p>
+<p><strong>Scroll</strong><br />
+Used primarily to transfer enchantments, scrolls can hold the magic of a single spell but cannot be used to cast the spell it holds. Scrolls can either be blank or contain a single spell.   </p>
+<p><strong>Star Rod</strong><br />
+Sometimes referred to as sun rods, these transparent glass batons shed light in a 50 foot radius area and cannot become Broken, even from great falls into cavernous chasms. They shed this light constantly, and are held in tubular holsters to carry them discreetly.   </p>
+<p><strong>Voice Gem</strong><br />
+These smooth pieces of pink stone can be placed in a creature’s ear and used to communicate with other creatures with 10 miles who have a matching stone placed in their ear.   </p>
+<p><strong>Whetstone</strong><br />
+Whetstones are simple, fine-grained stones used to sharpen blades. Using this item allows the user to sharpen a blade to a fine edge. A blade sharpened by a whetstone gains the honed weapon property until its wielder’s next Rest.   </p>
+<p><strong>Wonder Wand</strong><br />
+This ivory rod is encrusted with raw teal crystals. You can spend 1 Action to activate it and cause an Arcane Anomaly.  </p>
+<p></div>
+</div></p>
+<h2 id="custom-magical-items">Custom Magical Items<a class="headerlink" href="#custom-magical-items" title="Permanent link">#</a></h2>
+<p>The Guide is free to create their own magical items and artifacts to reward their Adventurers with. There are no particular rules for creating magical items, but caution is suggested when creating such an item and granting the Adventurer’s access to it. Magic items can sometimes be so overwhelming in their power that the challenges within the game begin to become joyless. Common sense and forethought is the Guide’s most valuable asset when thinking up new magical items.  </p>
+<p>The simplest and most mechanically balanced way to create a magical item is to think of a nonmagical item and combine that item with a certain skill or spell as its effect. Skills and spells by themselves are not overtly powerful, and gaining a new skill through the possession of an arcane item can be a great reward for an Adventurer.  </p>
+<p>A magic dagger used by a Warrior, for instance, could be infused with the Witch skill ‘Crimson Rite’, allowing the Warrior to receive visions about the enemies they slay using the dagger.  </p>
+<h2 id="relics">Relics<a class="headerlink" href="#relics" title="Permanent link">#</a></h2>
+<p>Forgotten artifacts of the ancient heroes, the Relics are the most valuable reward an Adventurer could hope to obtain. Relics are magical items which cannot become Broken and can never be unenchanted or otherwise manipulated by any known force or entity, save for the greatest of deities. They are treasures of immeasurable power and potential.  </p>
+<p>Each of the Relic’s exact effects should be determined by the Guide using their best judgment and interpretation of the Relic’s descriptions. Adventurers who are level 8 or lower must make a Will check against a DC of 5 whenever they touch a Relic for the first time. On a success, that Adventurer gains the Relic. On a failure, the Relic rejects the Adventurer. The Adventurer dies forever, cannot be resurrected. They become lost and ever adrift amidst the Ether.<br />
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Agonmaul</strong><br />
+A tall ivory warhammer with a thin shaft and an ornate hammerhead. The wielder of Agonmaul adds their level as a bonus to all attack rolls they make with it. The Agonmaul can strike any nonmagical item, item, or structure and cause that target to become Broken. The Agonmaul can be wielded as if it were a heavy melee weapon, a light melee weapon, or a ranged weapon. Whenever the Agonmaul is used as a ranged weapon, it automatically returns to its owner’s hand after it is thrown. The Agonmaul can only be lifted by its current owner. The Agonmaul cannot be moved by darkness.   </p>
+<p><strong>Autumn Arbiter</strong><br />
+A crossbow made up of woven golden threads, onyx, and dark wood. The stock of the crossbow is emblazoned with a golden sigil in the shape of a maple leaf. All attack rolls made with the Arbiter gain a bonus of its wielder’s level. The Arbiter is a device of immense divine power. The Arbiter causes ripples in the ether whenever its bolts move through the air.   </p>
+<p><strong>Chalice of Aurum</strong><br />
+A golden chalice filled with vibrant swirls of Ether, prismatic in coloration. The face of the Chalice depicts both Elpo, the mother goddess, as well as her children, the Seven Sublime, in exquisitely detailed etchings. Those that drink from the Chalice must succeed a Will check against a DC of 18. On a failure, both the drinker and the Chalice are teleported to differing locations of the Guide’s choice. The drinker then becomes permanently Corrupted as a result of their soul and body being unfit to withstand the Chalice’s power. On a success, the drinker becomes a minor god.   </p>
+<p><strong>Dawn Disc</strong><br />
+The Disc is a golden maul which can blossom outwards into a perfectly circular and completely invincible shield. The Disc can be wielded as either a heavy melee weapon or a shield. It can change forms between these two options as a Free Action. While in its shield form, the Disc’s Defense bonus is equal to 5. The Disc can cast the Beam spell once per Rest. The Disc sheds the sun’s holy light no matter how dark its surroundings truly are. Its light is infectious, and encroaches into every emptiness around it, even those unknown to mortal kind.   </p>
+<p><strong>Gravezeal</strong><br />
+A massive, looming scythe of black wood and dead metal. Gravezeal is considered a reach weapon, and has a melee attack range of 15 feet. On a hit, the target must roll 1d6. On a roll of 1, the target dies forever and becomes a corpse companion to the wielder of Gravezeal. Gravezeal can cut through life itself, and can shape already living things into undead shadows of their former selves.   </p>
+<p><strong>Luna Wand</strong><br />
+The Luna Wand is sometimes called the Bastard Wand. The Luna Wand is a shard of sheared titan bone with black roots twisted around it. The Luna Wand increases its wielder’s spell DC by 5, to a maximum of 20. Once per Rest, the Luna Wand can cast any spell of its wielder’s choice once per Rest. The wand is cursed. Whenever the wand is used to cast a spell, the wielder must make a Will check against a DC of 5. On a failure, the wielder becomes Corrupted. The Luna Wand has the soul of the Frost Witch trapped within it, and it will take advantage of any opportunity to betray insufferable mortals who dare grasp its knotted shaft.   </p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;">
+<strong>Maelgwyn</strong><br />
+A deeply verdant breastplate made up of cambium and vegetation. Mushrooms, lichen, and flowers constantly grow and bloom on Maelgwyn. Maelgwyn is a set of armor with a Defense bonus of 4. If the wearer of Maelgwyn takes damage, they regain 1d6 Health as a Reaction. If the wearer of Maelgwyn becomes Wounded, the Wounded condition ends for them during their next Rest. A creature wearing Maelgwyn can cast the spell Brambles once per Rest. Maelgwyn is the heart of all plantlife. Maelgwyn thinks and feels, and has the impulse to become unified with its wearer. Maelgwyn prefers to travel. Most importantly, Maelgwyn is most powerful when it has room to grow, such as when it is far away from other forms of plant life.   </p>
+<p><strong>Mirthmythron</strong><br />
+Mirthmythron harbors a fragment of Ether stolen from each and every artist and performer who has ever lived or ever will live. Mirthmythron is a silver lute with thirteen strings made of golden threading. Instead of a lute, the Relic can sometimes manifest as a harp made of the same materials. The wielder of Mirthmythron gains 3d10 inspire die, and can grant them in accordance within the rules of the Inspire ability, even if the wielder is not a Bard. Mirthmythron breathes deeply at night, and its melodies are purest under the moonlight.   </p>
+<p><strong>Netherfeng</strong><br />
+A dark, wavy dagger sharp enough to cut a shadow from the ground. Netherfeng has three tendrils of ghostly grey fabric which drip from its handle. The threads move through the air like smoke. The wielder of Netherfeng gains a bonus equal to their Agility score modifier to all attack rolls they make with the Relic. Netherfeng can be used as a light melee weapon or a ranged weapon. Whenever Netherfeng is used as a ranged weapon, the wielder can choose to either teleport to wherever the Relic lands as a Reaction or to have the Relic teleport back into their grasp as a Free Action. The wielder can also choose to create thick gray clouds of fog around themselves and the dagger in a 10 foot radius area whenever they hit an enemy with the Relic. Netherfeng has an eye in its hilt, but it will only open it when there is something worth looking at. Netherfeng has trickery forged into its blade.   </p>
+<p><strong>Nidhogg</strong><br />
+A pastel colored rapier with a prismatic hilt. The blade does not have, and has no need for, a guard. Nidhogg is considered a reach weapon. The wielder of Nidhogg adds their level as a bonus to all attack rolls they make with this Relic. On a hit, the target becomes pierced by light of every color, and feels deep remorse for any evil deeds they have committed. Nidhogg can bend and move around corners, and is especially deadly when wielded by a creature who has lost everything.   </p>
+<p><strong>Old Wrath</strong><br />
+Wrath is an ivory revolver made of ancient wood from the darkest forest. Wrath is a revolver with a misfire rate of 1 and an ammunition capacity of 4. Wrath does not become Broken from a misfire. Instead, if the wielder of Wrath misfires while using it, they become Corrupted. On a critical hit made with Wrath, the target becomes Wounded.   </p>
+<p><strong>The Sword</strong><br />
+Only a true hero can touch The Sword’s hilt. The blade is not as discriminating. The Sword has a +5 bonus to all attack rolls made with it, and is considered a magical light melee weapon. On a hit, the target automatically becomes affected by the Etheric Ray spell. Once per Rest, the wielder can spend 1 Action to cast 1 Cleric or Witch spell of their choice by holding the Sword towards the heavens. Legends say that the Sword is sharp enough to cut a shadow from the ground.  </p>
+<p></div>
+</div></p>
+<h2 id="hands-of-ether">Hands of Ether<a class="headerlink" href="#hands-of-ether" title="Permanent link">#</a></h2>
+<p>The Hands of Ether are the most pure of the Relics. Some dedicate their lives to obtain a Hand, making great sacrifices to wield their power. Some Hands find their way to worthy heroes in times of great need. The first Hands were given to the mortals by Elpo, the mother goddess, to ensure her creation’s protection from her treacherous brother’s malicious war on creation. Other Hands, given by lesser gods or created by enterprising mortals of great power, soon found their ways into the hearts of ancient forest tombs and forgotten halls in the bowels of other realms. To gain a Hand, an Adventurer must cut off their own hand.  </p>
+<p>These are the Hands of Ether, wielded only by those at
+the pinnacle of fate.
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;">
+<strong>Cobalt Claw</strong><br />
+The sapphire hand was gifted to the primordial small folk, and the beast folk, their cousins. It was wielded by the first dwarves, gnomes, and halflings. It is the Hand of hiding, retribution, and shadows. The wielder of this Hand gains the Cunning Strike ability, regardless of their class. The wielder can spend 1 Action to move and shape up to 5 Bulk of natural stone or earth in any manner they choose. The wielder of this hand gains the spells Invisibility, Traceless, Earth Pillar, Quake, Heat Metal, Molten Eruption, and Shatter. The wielder can cast each of these spells once per Rest. Lastly, the wielder of this hand can spend 2 Stamina to become Invisible for up to 1 hour as a Free Action.   </p>
+<p><strong>Ruby Gauntlet</strong><br />
+The crimson crystal hand first belonged to the primordial scaled folk. It is the warrior’s hand, fueled by the spirits of lost heroes. It is the hand of rage, heritage, and blood. The wielder of this hand gains the Strike ability, regardless of their class. The wielder’s damage for this ability becomes 1d10. The wielder gains the Maim skill, and gains the spells Crystallize, shield, Nautilus, Sacrifice, and Heal. The wielder can cast each of these spells once per Rest for no Mana cost.   </p>
+<p><strong>Woven Hand</strong><br />
+The wooden hand, old and knotted, is ever-moving with roots and bark. This was the Hand bestowed to the men and elves of the jungle in the ancient age. The wielder of this hand gains the Weave ability, which they can use three times per Rest. They gain the Ether Bender skill, regardless of their level. Lastly, the wielder can spend 1 Action and 2 Stamina to cause an Arcane Anomaly to occur.   </p>
+<p></div>
+<div style="grid-column: 2/3; margin-right: 13px;"></p>
+<p><strong>Pale Hand</strong><br />
+Banished to the deepest trenches of the Ether during the Pale War, the hand of the unborn god of anticreation and nullification is a malevolent instrument of undoing and chaotic corruption. Its gaunt ivory form causes horror to all who see it. When first attached to a new wielder, that wielder must succeed a Will check against a DC of 10 or have their soul lost forever. The wielder’s soul is lost, and that Adventurer becomes consumed by the Hand’s corruption. The lost Adventurer falls under the Guide’s control. If the wielder succeeds their Will check, they gain the Pale Hand. The wielder can spend 1 Action and 2 Stamina to cause a creature within 500 feet to become Corrupted. The wielder gains the Hex ability, regardless of their class. The wielder gains the spells Black Crown, Vex, Pale Blade, Wither, and Bane. The wielder can cast each of these spells once per Rest for no Mana cost. The wielder of this hand can always spend Stamina as if it were Mana, or spend Mana as if it were Stamina. Lastly, once per Rest, the wielder of the Pale Hand can point at a creature within 100 feet of it in an attempt to sever that creature’s Etheric thread. The target must make a Will check against a DC of 10 or die instantly. If the target dies as a result of this effect, they cannot be resurrected, and their soul is shattered and lost.  </p>
+<p></div>
+</div></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

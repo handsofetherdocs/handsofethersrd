@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Combat - Hands of Ether</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../adventuring/">Adventuring</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../conditions/">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../adventuring/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../magic/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#combat">Combat</a></li>
+            <li><a href="#initiative">Initiative</a></li>
+            <li><a href="#your-turn">Your Turn</a></li>
+            <li><a href="#common-actions">Common Actions</a></li>
+            <li><a href="#attack-rolls">Attack Rolls</a></li>
+            <li><a href="#damage">Damage</a></li>
+            <li><a href="#critical-hits-and-natural-ones">Critical Hits and Natural Ones</a></li>
+            <li><a href="#healing">Healing</a></li>
+            <li><a href="#range">Range</a></li>
+            <li><a href="#creature-size-and-space">Creature Size and Space</a></li>
+            <li><a href="#advantage-and-disadvantage">Advantage and Disadvantage</a></li>
+            <li><a href="#free-actions-and-reactions">Free Actions and Reactions</a></li>
+            <li><a href="#cover-and-rough-terrain">Cover and Rough Terrain</a></li>
+            <li><a href="#using-shields">Using Shields</a></li>
+            <li><a href="#mortality-and-death">Mortality and Death</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">#</a></h1>
+<p>Combat encounters are violent conflicts between two or more opposing forces. No matter how powerful an Adventurer is, combat is always a gamble of life or death. Each Adventurer has a number of abilities and skills they can use during combat. The Guide controls enemies during combat in an effort to prove victorious against the Adventurers. Remember, Adventurers - your enemies want to win. Unless the adversary you are battling is a mindless monster, they will use any advantage at their disposal to ensure your demise. The key to surviving a combat encounter is understanding the rules of combat.</p>
+<h2 id="initiative">Initiative<a class="headerlink" href="#initiative" title="Permanent link">#</a></h2>
+<p>Hands of Ether organizes combat and other dangerous scenarios into a cycle of rounds and turns. A round represents the passing of ten seconds in the game world. During a round, each combatant in the battle takes a turn. Once all combatants have taken a turn, the fight continues on to the next round if neither side has defeated the other. The order of these turns is determined at the beginning of combat by rolling initiative.  </p>
+<p>When combat begins, each creature involved in the battle rolls 1d20 and applies any bonuses they might have to determine their place in the initiative order. The Guide rolls initiative for any creatures or other forces in the battle that are not controlled by the players. If one group of combatants surprises their opposition, such as by ambushing them, each member of the surprising group are allowed to perform 1 Action of their choice before initiative is rolled. This is known as a surprise round.  </p>
+<p>The Guide ranks the combatants in order from the highest initiative result to the the lowest. This is the order in which each participant begins their turn during each round. The initiative order remains the same on each subsequent round unless the initiative order is altered by a skill or spell effect. Then, each combatant takes their turn in initiative order.  </p>
+<p>Once each combatant has taken their turn, the round ends. Repeat this process until all but one group of combatants has fled, been defeated, or proved victorious in combat.  </p>
+<p>Initiative is not just used to measure the flow of battles - it can be initiated by the Guide during any event which forces the Adventurers to act under pressure. Escaping the rapids of a powerful river, trespassing in a noble’s castle, or chasing down a thief are all gameplay moments best played out using the initiative system.  </p>
+<h2 id="your-turn">Your Turn<a class="headerlink" href="#your-turn" title="Permanent link">#</a></h2>
+<p>At the beginning of a combatant’s turn, they gain access to their Speed and their Actions. Any number of Actions that go unused after a combatant's turn ends are considered held Actions by default. Held Actions can be used at any time between the end of a combatant’s turn and the end of the round. Once a round has ended, all held Actions disappear and become wasted.  </p>
+<p>During a combatant’s turn, they can use their Speed to move a number of feet equal to their Speed score. This use of Speed can be separated by Actions however they wish. For instance, the combatant could move half of their Speed towards an enemy, attack them using an Action, and then move back to their original position using the other half of their Speed. A combatant cannot move more feet than their maximum Speed during a turn in combat unless otherwise stated by a skill or spell effect. Unlike Actions, a combatant’s Speed can only be used during their turn in combat.  </p>
+<p>Any task a combatant wishes to perform that is not moving from one place to another or vocally communicating is considered an Action, not Speed. Climbing, going prone, vaulting over a small wall, opening a door, jumping, and similar activities are all considered Actions.
+The amount of Actions that a Guide-controlled combatant has access to in an encounter are determined by the Guide, while Adventurers have 2 Actions by default. If an Adventurer wishes to perform an activity in battle that is not listed in this manual's default rules, the Guide determines if the task is possible as well as how many Actions it will cost to perform this endeavor.  </p>
+<p>The only tasks during combat that can be performed without using an Action are dropping items and speaking between other combatants. Dialogue never costs an Action, and players are encouraged to banter and roleplay amongst each other and their opponents during battle. Some tasks and abilities, such as casting certain spells, cost more than 1 Action to perform. There are also some skills and abilities that allow Adventurers to perform two activities using only 1 Action, such as the Warrior’s Surge ability.</p>
+<h2 id="common-actions">Common Actions<a class="headerlink" href="#common-actions" title="Permanent link">#</a></h2>
+<p>There are a number of Actions that any creature or Adventurer can do that does not require any special abilities or skills. These tasks cost 1 Action to perform. If a task is not listed here, it is up to the Guide to determine how many Actions that task would cost to perform. Typically, performing any activity in the heat of battle costs a combatant 1 Action.  </p>
+<p>The following is a list of activities that cost 1 Action to perform to serve as an example.</p>
+<ul>
+<li>Making an attack roll.</li>
+<li>Performing any activity that requires an ability check, such as making a Wit check to perceive your surroundings or a Might check to kick open a jammed door.</li>
+<li>Withdrawing or stowing an item or weapon. Raising a shield to defend oneself.</li>
+<li>Donning or doffing an adornment or piece of armor, such as a helmet or a ring.</li>
+<li>Falling prone, or standing up from the prone position.</li>
+<li>Consuming something, such as eating a bite of food or drinking a potion.</li>
+<li>Reloading a weapon that requires ammunition, such as a bow or a firearm.</li>
+</ul>
+<h2 id="attack-rolls">Attack Rolls<a class="headerlink" href="#attack-rolls" title="Permanent link">#</a></h2>
+<p>Whenever a combatant wishes to attack another creature, their attack roll determines whether their attack successfully deals any damage to their target. To make an attack roll, roll 1d20 against a DC of your target’s Defense. By default, Adventurers do not add any bonuses to their attack rolls, and instead simply use the rolled result as the attack roll’s total.  </p>
+<p>If the total result of an attack roll equals or exceeds a target’s Defense, the attack hits and deals damage to the target. If the total result of an attack roll does not meet a target’s Defense, the target avoids the attack in some way and takes no damage. The Defense of an Adventurer is determined at character creation, whereas the Defense of an non-player target is determined by the Guide. There are a number of factors that could improve a creature’s default Defense, such as wearing armor or casting a defensive spell.</p>
+<h2 id="damage">Damage<a class="headerlink" href="#damage" title="Permanent link">#</a></h2>
+<p>Injury and the risk of death are constant threats to Adventurers. Whenever a creature takes damage, that creature’s Health is reduced by an amount equal to the damage dealt to it. The loss of Health has no effect on a creature’s abilities until that creature is reduced to 0 Health.  </p>
+<p>Each weapon, spell, and ability specifies the damage it deals, if any. The attacker always rolls the damage die to determine how much damage their target is dealt. Magical weapons, class abilities, and other factors could grant a bonus to damage. With a penalty, it is possible to deal 0 damage to a target, but never negative damage. If a spell or other effect deals damage to more than one target at the same time, the attacker only rolls the damage dice once to determine how much damage each target takes.  </p>
+<p>If an Adventurer reduces a target to 0 Health using a melee weapon, that Adventurer can indicate that they wish to deal nonlethal damage to the target. If an Adventurer does this, the target becomes Unconscious and Stabilized instead of dying.  </p>
+<p>It is possible for a creature to be killed instantly from an attack or circumstance which deals a massive amount of damage to them. If an Adventurer takes an amount of damage from one attack which equals or exceeds their maximum Health, they must make a Might check against a DC of 10 or die instantly.</p>
+<h2 id="critical-hits-and-natural-ones">Critical Hits and Natural Ones<a class="headerlink" href="#critical-hits-and-natural-ones" title="Permanent link">#</a></h2>
+<p>Even experienced Adventurers make mistakes, and even novice Adventurers can be favored by fate. If an attack roll results in a roll of 20 before any modifiers are applied, that attack roll hits regardless of any bonuses, penalties, or the target’s Defense. This is called a critical hit. If the d20 roll result for an attack roll is a 1, the attack roll misses regardless of any modifiers or the target’s Defense. Rolling a 1 on an attack roll has no other special rules, but critical hits have a number of effects depending on what kind of attack is being made.  </p>
+<p>If a weapon makes a critical hit, the damage dice used for that weapon attack roll is doubled. If a weapon typically does 1d6 damage, for instance, a critical hit with that weapon would deal 2d6.  </p>
+<p>If the attack's damage has any bonuses attributed to it, these bonuses are not doubled on a critical. For instance, if a creature’s attack would typically deal 1d6+1 damage on a hit, they would instead deal 2d6+1 damage on a critical hit.  </p>
+<p>The rules associated with critical hits do not apply to spells or cantrips. By default, a cantrip or spell which calls for an attack roll and has the capabilities to cause damage to a creature cannot be a critical hit.</p>
+<h2 id="healing">Healing<a class="headerlink" href="#healing" title="Permanent link">#</a></h2>
+<p>Unless it results in death, damage isn’t permanent. Even death is reversible in some rare cases. Rest can restore a creature’s Health, and magical or alchemical methods such as healing spells or healing potions can remove damage instantly.  </p>
+<p>When a creature receives healing of any kind, Health they regain is added to their current Health. A creature’s current Health can’t exceed their maximum Health, so any Health regained in excess of a creature’s maximum Health is lost. A creature that has died cannot regain Health.</p>
+<h2 id="range">Range<a class="headerlink" href="#range" title="Permanent link">#</a></h2>
+<p>You can only make attacks against targets within the specified range of the spell, ability, skill, or weapon you are using. The range of the attack you are using will be listed under that specific item or ability’s description. If you are attacking a creature outside of a projectile’s range with weaponry rather than a spell, you can still attempt to make an attack roll against them, but you must do so with disadvantage. Sometimes, a target may be so far away that an attempted attack may be impossible. The Guide determines whether or not a target is completely out of range of a projectile.  </p>
+<p>Most creatures have a default melee range of 5 feet, meaning they can attack targets within 5 feet of them when making a melee or touch-based attack. Certain creatures have melee and touch-based attacks with a greater range than 5 feet, as noted in their descriptions. Some melee weapons and items, such as spears, have an inherently longer melee range than others.</p>
+<h2 id="creature-size-and-space">Creature Size and Space<a class="headerlink" href="#creature-size-and-space" title="Permanent link">#</a></h2>
+<p>Each creature takes up an amount of space depending on their size. If a creature is a smaller or larger size than another creature, those creatures can occupy the same space in combat. For example, an average Adventurer whose size is medium could climb onto the body of a dragon, whose size is giant, and occupy the same space as that dragon. You cannot end your movement in the same space as another creature that is equal to your size.  </p>
+<p>There are six sizes that a creature could be; tiny, small, medium, large, and giant. Creatures smaller than the smallest of adventurers are considered tiny, and creatures larger than the largest adventurers are considered giant.</p>
+<p>Sometimes, it may be necessary to carry an Unconscious creature. If such an occurrence arises, small creatures are 6 Bulk, medium creatures are 8 Bulk, and large creatures are 10 Bulk. Tiny creatures or creatures smaller than small sized weigh 4 Bulk.</p>
+<h2 id="advantage-and-disadvantage">Advantage and Disadvantage<a class="headerlink" href="#advantage-and-disadvantage" title="Permanent link">#</a></h2>
+<p>The terms advantage and disadvantage are used frequently throughout this manual and during gameplay to describe a certain special rule that is used primarily, but not exclusively, during combat encounters.  </p>
+<p>The terms advantage and disadvantage are used in and outside of combat. Having advantage on an attack roll or check means to roll 2d20 and to use the higher number rolled as the result.  </p>
+<p>Disadvantage is the opposite, meaning to roll 2d20 and to use the lower number rolled as the final roll result. Advantage or disadvantage can greatly increase or decrease the chance of success when making an attack roll or check.  </p>
+<p>The Guide determines if and when a creature rolls with advantage or disadvantage. A number of skills and abilities can also grant a Adventurers with advantage or disadvantage depending on the specific activity they are attempting to succeed in.</p>
+<h2 id="free-actions-and-reactions">Free Actions and Reactions<a class="headerlink" href="#free-actions-and-reactions" title="Permanent link">#</a></h2>
+<p>Some skills, spells, and abilities can be used by a creature without that creature having to spend any Actions. These skills and abilities are called Free Actions, and they cost 0 Actions to perform. Sometimes, skills and other activities may only cost an Adventurer Stamina points instead of Actions. These sorts of activities are also considered Free Actions. In a combat round, creatures can only use a Free Action during their turn or after their turn in a round unless otherwise stated by a particular skill, spell, or ability. By default, there are no limits to the number of Free Actions a creature can perform during a single round of combat.  </p>
+<p>Sometimes, creatures can use certain Free Actions regardless of whether or not their turn has happened yet. These kinds of Free Actions are called Reactions, and can be used in combat as a response to certain conditions being met or specific events taking place. As the name implies, Reactions are triggered as a response to a certain circumstance occurring. Reactions can only be used when their condition has been triggered.  </p>
+<p>As long as the conditions occur for a Reaction to trigger, that Reaction can be used. As long as a creature’s turn is happening or has already passed in a round, that creature can use Free Actions. Creatures who are Unconscious or Stunned cannot use Free Actions or Reactions, unless otherwise stated or implied by a certain skill or spell.</p>
+<h2 id="cover-and-rough-terrain">Cover and Rough Terrain<a class="headerlink" href="#cover-and-rough-terrain" title="Permanent link">#</a></h2>
+<p>Many aspects of the battlefield can hinder or aid combatants. The most common case of the environment affecting combat is cover. Walls, trees, and other obstacles can provide cover during combat, making a creature more difficult to target with attacks. A creature can benefit from cover only when an attack or other effect originates on the opposite side of the cover.  </p>
+<p>There are two types of cover; full cover and half cover. A creature with full cover cannot be targeted by an attack roll or spell, although some spells or skill effects can reach such a target by including them in an area of effect. A creature has full cover if it is completely concealed by an obstacle. A creature with half cover is considered Covered, and gains a +3 bonus to their Defense as a result. A creature is Covered if an obstacle blocks or covers at least half of their body. This obstacle might be a low wall, a large piece of furniture, or a tree trunk.  </p>
+<p>Adventurers will sometimes find themselves in unfavorable tactical positions due to their battlefield, such as fighting in a swampy area or a room full of rubble. This kind of battlefield is called Rough terrain. While engaged in a combat encounter on Rough terrain, such as fighting in deep snow or while underwater, each combatant becomes Encumbered.</p>
+<h2 id="using-shields">Using Shields<a class="headerlink" href="#using-shields" title="Permanent link">#</a></h2>
+<p>Shields are carried by Adventurers to defend themselves against physical harm. They come in many shapes, sizes, and adornments. To benefit from a shield’s Defense bonus, a creature must spend 1 Action to raise that shield against an attack targeting them. By default, a shield can only be used to defend the creature that is wielding it.  </p>
+<p>A creature wielding a shield can use that shield for 1 Action to defend themselves during combat. A shield- wielding creature can raise a shield in this way preemptively, or as they are being attacked. A shield can even be used by a creature as that creature is in the process of being attacked. A creature can use a shield in this way even after that creature knows whether an attack roll made against them would hit or miss them.  </p>
+<p>A creature who has raised their shield benefits from that shield’s Defense bonus until they choose to lower or drop that shield as a Free Action. Lowering or dropping a shield can be done by any creature as a Free Action. A hand used to wield a shield is considered occupied. For this reason, no item can be wielded in the same hand that a shield is being wielded in by default, and no spells can be cast by a creature wielding a shield unless their other hand is free and unoccupied.</p>
+<h2 id="mortality-and-death">Mortality and Death<a class="headerlink" href="#mortality-and-death" title="Permanent link">#</a></h2>
+<p>Typically, only integral characters can fall Unconscious. Enemies and NPCs who are reduced to 0 Health die automatically. There can be exceptions to this rule at the Guide’s discretion.  </p>
+<p>Whenever an Adventurer falls Unconscious, however, they must begin making a special kind of check called a Mortality check. A Mortality check is made by rolling 1d20 against a DC of 10. If an Adventurer fails a Mortality check, they lose 1 Mortality and come one step closer to death. If they succeed, they do not lose a Mortality point. By default, each Adventurer has 3 Mortality points. These Mortality points represent an Adventurer’s overall ability to cling to life.  </p>
+<p>This process begins on an Adventurer’s next turn in combat, after the turn in which they first become Unconscious. The Unconscious Adventurer then continues to make a Mortality check on each of their following turns until they become conscious or Stabilized. Mortality checks take up an Unconscious Adventurer’s entire turn, and Unconscious Adventurers only make one Mortality check per turn.
+If an Adventurer rolls a natural 1 on their Mortality check, they lose 2 Mortality. If an Adventurer rolls a natural 20 on their Mortality check, they regain consciousness and 1 Health.  </p>
+<p>An Adventurer who regains consciousness from scoring a natural 20 on a Mortality check cannot take their turn as normal after awakening, as a Mortality check already takes up an Adventurer’s entire turn. If an Unconscious Adventurer is hit with a critical hit, they die instantly.  </p>
+<p>152The best and easiest way to help a dying Adventurer is to heal them. Healing an Unconscious Adventurer brings them back to consciousness immediately, and Health is applied to them as normal. If healing is not an option, certain Adventurers that possess the skills to do so could instead Stabilize their fallen companions.  </p>
+<p>A Stabilized Adventurer remains Unconscious, but does not roll Mortality checks. Whether they are Stabilized or not, Unconscious Adventurers lose 1 Mortality and become unstabilized if they take any damage. Adventurers naturally regain their maximum Mortality points after each Rest.  </p>
+<p>Once an Adventurer's Mortality is reduced to 0, that Adventurer dies. An Adventurer who dies is entitled to their last words.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

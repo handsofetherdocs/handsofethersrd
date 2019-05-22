@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Encounters - Hands of Ether</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../conditions/">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../guideresources/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#encounters">Encounters</a></li>
+            <li><a href="#crafting-enemies">Crafting Enemies</a></li>
+            <li><a href="#situational-encounters">Situational Encounters</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="encounters">Encounters<a class="headerlink" href="#encounters" title="Permanent link">#</a></h1>
+<p>Adventurers who journey beyond the safety of city walls will at some inevitable point come face to face with bandits, monsters, dangerous guilds, or dark spirits. Adversaries come in all shapes and sizes.   </p>
+<p>Monsters and other adversaries have no default statistics within the game. It is suggested that the Guide creates their own enemies to fit their unique setting. Creating enemies and monsters for your adventure is a simple task, as creatures in Hands of Ether always have the same types of statistics.   </p>
+<p>Each creature,  including each player-controlled Adventurer, has four primary ability scores and eight minor scores. For monsters, the eight minor scores are rarely used during combat and can be ignored when creating a monster’s statistics. Each creature also has a primary ability and a number of skills or spells. For simplicity’s sake, it is suggested that each enemy your Adventurer’s face has three or less skills or spells in addition to their primary ability. Any more spells or skills could be too challenging to control during the confusion of running a smooth combat encounter.</p>
+<h2 id="crafting-enemies">Crafting Enemies<a class="headerlink" href="#crafting-enemies" title="Permanent link">#</a></h2>
+<p>To create a humanoid enemy to challenge your players with,  simply create an appropriately leveled Adventurer. A challenge for a group of Adventurers is one enemy who is 1 level above them. A few level 2 enemies are a fair challenge to a group of four or less level 1 player-controlled Adventurers.   </p>
+<p>You can create monsters in this manner as well, but with much less limitation. As an example, a hag that a group of Adventurers are battling may have a few Witch skills and a few Rogue skills, creating a unique and powerful creature who specializes in both dark magic and subterfuge.   </p>
+<p>The two most important scores to consider when creating a custom enemy is their Health and Defense. Scores other than Health and Defense could be used, but it is not necessary.  </p>
+<p>The Defense of an enemy creature can be determined by considering their size as well as any armoring they may possess. A giant is a big target, and therefore should be easier to hit. A Defense of 8 is a good starting score for such a creature. A dragon, however, has natural armor in the form of thick scales. For this reason, a dragon may have a Defense of 12 despite their size.  </p>
+<p>Health is the most important factor when creating an enemy. To determine an appropriate amount of Health for a custom enemy, add each of your Adventurer’s levels together and then multiple by three.  </p>
+<p>(Three level 10 Adventurers = 30. 30 x 3 = 90).  </p>
+<p>90 Health is an appropriate amount of Health for a fair but challenging encounter for three level  10 Adventurers.  </p>
+<p>Although creating your own monsters and enemies is suggested, this manual also contains a number of monsters and enemies to challenge your Adventurers with. The following creatures can be used as a guideline to help you design and create your own adversaries, as well.  </p>
+<p>Each enemy in this manual has a unique property called a Challenge Rating (CR). This is a score used to judge how difficult a monster is to defeat in combat, and is directly related to the current level of the adventuring party. A Challenge Rating of 1, for example, is considered a challenging but manageable enemy for a group of three level 1 Adventurers to battle.   </p>
+<p>Each of the following enemies also has a weakness. Weaknesses are secret vulnerabilities of a creature that can greatly assist Adventurers in battle. Weaknesses could be revealed to the party through a Sage’s Discern ability, or through the party searching old libraries for answers on how to best defeat their enemy.  </p>
+<h2 id="situational-encounters">Situational Encounters<a class="headerlink" href="#situational-encounters" title="Permanent link">#</a></h2>
+<p>Sometimes Adventurers may face a foe that is not a typical monster or group of bandits. Natural disasters, mobs of angry villagers, or swarms of rats work just like other adversaries in this game. They have Health, skills, and other statistics. Guides are free to create their own unconventional encounters just as they would any other monster, but the following list of prepared adversaries contains a few examples of such circumstantial challenges.<br />
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="grid-column: 1/2; margin-right: 13px;"></p>
+<h3 id="wrong-elf">Wrong Elf<a class="headerlink" href="#wrong-elf" title="Permanent link">#</a></h3>
+<p>Twisted in the darkness, the once proud and
+intellectually advanced Athaki have become a primal,
+ferocious shadow of their former selves. They now
+wander the caverns beneath the surface in small
+clusters, surviving day by day and using scavenged
+weaponry to catch spelunkers, treasure hunters, and
+miners by surprise. These pallid, conal-headed
+gremlins rely on guerrilla tactics to gain an edge, and
+are constantly in a state of desperation as they
+struggle to survive in the forgotten halls of their once
+great civilization.  </p>
+<p>Their spherical black eyes and bleached blue skin is a
+fearsome sight, but they are weak and fragile
+creatures on their own. Wrong-Elves are rarely seen
+alone, and are never encountered in the daylight or on
+the surface. The Wrong-elves have an obsession with
+trinkets of a technological nature; an instinctual echo of
+their ancestor’s once curious and enterprising nature.</p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 1</td><td colspan="2"><b>Type</b> Shadow</td></tr>
+<tr><td style="border-top: 0;"><b>Agility</b> +1</td><td style="border-top: 0;"><b>Might</b> -3</td><td style="border-top: 0;"><b>Will</b> -3</td><td style="border-top: 0;"><b>Wit</b> +1</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 5</td><td><b>Defense</b> 10</td><td><b>Speed</b> 40</td></tr>
+<tr><td colspan="4"><b>Size</b> Small</tr>
+<tr><td colspan="4"><b>Primary Ability: Venom Soaked Shot</b><br>The Wrong-Elf spends 1 Action to make an attack roll against an Adventurer within 100 feet. On a hit, the target takes 1d4 damage and must succeed a Might check against a DC of 5 or become Sapped until their next Rest.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Dark Vision.</b> Wrong-Elves can see in darkness out to a range of 50 feet as if the area was not obscured.</td></tr>
+<tr><td colspan="4" style="border-top: 0;"><b>Entangling Net.</b> Wrong-Elves can spend 1 Action to
+toss a net at an Adventurer in an attempt to restrain them. The target must succeed an Agility check against a DC of 8 or become Restrained until the end of the next round.</td></tr>
+<tr><td colspan="4" style="border-top: 0;"><b>Pack Tactics.</b> Wrong-elves have advantage on any attack roll made against an Adventurer that is within 5 feet of another conscious Wrong-Elf.</td></tr>
+</table>
+
+<hr />
+<h3 id="tavern">Tavern<a class="headerlink" href="#tavern" title="Permanent link">#</a></h3>
+<p>An interwoven, flailing sea of greasy, weathered limbs and broken glass. If an Adventurer starts trouble in a tavern, weary and bored townsfolk will leap at any opportunity to escalate their local drinking hole’s entropy in the name of entertainment alone. A pub fight is not typically a lethal encounter, unless the offense is worthy of execution or some ill-fated accident occurs in the confusion, but it can be a challenging one to most Adventurers. Adventurers who get knocked out by the Tavern Brawl awaken in less than fortunate conditions. If all Adventurers in the party are knocked out before they reduce the Brawl to 0 Health, they awaken in the settlement’s prison, and are Exhausted. The Adventurer’s prison sentence is 1d4 days.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 3</td><td colspan="2"><b>Type</b> Situation</td></tr><tr><td style="border-top: 0;"><b>Agility</b> 0</td><td style="border-top: 0;"><b>Might</b> 0</td><td style="border-top: 0;"><b>Will</b> 0</td><td style="border-top: 0;"><b>Wit</b> 0</td></tr>
+<tr><td><b>Actions</b> 1</td><td><b>Health</b> 40</td><td><b>Defense</b> 10</td><td><b>Speed</b> 10</td></tr>
+<tr><td colspan="4"><b>Size</b> Giant</tr>
+<tr><td colspan="4"><b>Primary Ability: Brawl</b><br>At the beginning of each round, the Brawl can attack each Adventurer as a Free Action. Each target must make the Guide’s choice of an ability check against a DC of 10. Adventurers who fail take 1d4 damage as they are caught in the chaotic violence of the Brawl. If an Adventurer fails this initial check, they must then succeed a Might check against a DC of 8 or get knocked out. An Adventurer who reaches 0 Health or is knocked out by this ability becomes Unconscious and Stabilized. The Brawl will no longer attack an Adventurer who has become Unconscious. 19</tr>
+<tr><td colspan="4"><b>Weakness:</b> A slippery floor can cause some tavern brawlers to fall over and call it quits. Throwing a slippery substance to the floor of the tavern reduces the Tavern Brawl’s Health by 10.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Furrowed Brows and Clenched Fists.</b> The Tavern Brawl cannot kill an Adventurer, and Adventurers cannot reduce the Tavern Brawl’s Health through typical means. On each of an Adventurer’s turns, they must spend their turn performing an activity they think will incapacitate a few of the volatile drunks that make up the brawling mass. Then, that Adventurer must make a relative ability check of the Guide’s choice against a DC of 12. On a success, the Tavern Brawl’s Health is reduced by 5. When the Tavern Brawl’s Health reaches 0, the brawl becomes subdues and ends.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>An Accident.</b> The Tavern Brawl can use this skill once per encounter. A drunken Fir knocks over a barrel of flammable spirits while a swaying, clumsy Dwarf spills their own spirit’s contents in a line leading from the fireplace to the opened barrel. At the beginning of the target's next turn, the trail of fire will reach the puddle of flammable spirits. An Adventurer must spend their entire turn extinguishing or halting this trail of fire using their surroundings, items, or abilities before the end of the next round. The Adventurer attempting to stop the flames must succeed a relative ability check against a DC of 10. If the fire reaches the flammable spirits before an Adventurer can stop it, each Adventurer must succeed a Might check against a DC of 10 or become knocked out, Unconscious, and Stabilized.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Haymaker.</b> The Tavern Brawl can use this skill once 196 per encounter. A surly dwarven woman with faded tattoos and a horned helm leaps from the fray and slams her stony fist directly into the face of one of the Adventurers. It feels like hitting a brick wall while galloping on horseback. The afflicted Adventurer must succeed a Might check against a DC of 18 or become Unconscious and Stabilized. Once the afflicted Adventurer later awakens, they become Sapped until their next Rest.</td></tr></table>
+
+<hr />
+<h3 id="rotter">Rotter<a class="headerlink" href="#rotter" title="Permanent link">#</a></h3>
+<p>A mysterious band of tribal monsters with spongy white skin stretched over their otherwise humanoid bodies. They grow in strength with each kill, covering the bodies of their slain enemies with fungal microbes that possess and assimilate them. The Rot Runners each retain muddled memories of who they once were, and have even been known to hold and adorn themselves with weaponry and armor. Most notably, they have been observed collecting memorabilia from their former lives and creating effigies with these scavenged items deep in the wilderness. They adorn themselves with the blood of their enemies, painting themselves with dark red spirals to strike fear into the hearts of their prey.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 1</td><td colspan="2"><b>Type</b> Pale</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +2</td><td style="border-top: 0;"><b>Might</b> -3</td><td style="border-top: 0;"><b>Will</b> +2</td><td style="border-top: 0;"><b>Wit</b> -1</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 10</td><td><b>Defense</b> 8</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Small or Medium</tr>
+<tr><td colspan="4"><b>Primary Ability: BrutalRend</b><br>The Rotter spends 1 Action to slash at an Adventurer with its cleaver. The Rotter makes an attack roll against an Adventurer within 5 feet. On a hit, the target takes 1d6 damage and becomes Prone.</tr>
+<tr><td colspan="4"><b>Weakness:</b> A successful attack roll made against a Rotter’s head kills them instantly.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Assimilate.</b> The Rotter spends 1 Action to launch a puff of fungal microbes towards an Adventurer within 10 feet. The target must succeed a Might check against a DC of 8 or become Unconscious and Stabilized. The target is infected. If the target is not awoken and healed within 1 hour, that target becomes a Rotter, and relinquishes control of themselves to the Guide.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Corrosive Claw.</b> Once per Rest, the Rotter can strike out with its corrosive claws against any creatures within 5 feet. The Rotter makes an attack roll. On a hit, the target takes 1d6 damage. In addition, 1 nonmagical item of the Rotter’s choice which is being wielded by the target becomes Broken.</td></tr></table>
+
+<hr />
+<h3 id="meat-mite-swarm">Meat Mite Swarm<a class="headerlink" href="#meat-mite-swarm" title="Permanent link">#</a></h3>
+<p>Flying, crawling, insectoid creatures which move as one, constantly burrowing into, eating into, mating with, and birthing each other. Their soft crimson exoskeletons are constantly dripping with a toxic serum not unlike blood, and they seek only to overrun and consume flesh. They are blind, and fervently sense out for the smell of meat using their razor sharp mandibles, which also act as their antenna.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 2</td><td colspan="2"><b>Type</b> Situation</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +3</td><td style="border-top: 0;"><b>Might</b> -3</td><td style="border-top: 0;"><b>Will</b> -3</td><td style="border-top: 0;"><b>Wit</b> -1</td></tr>
+<tr><td><b>Actions</b> 1</td><td><b>Health</b> 20</td><td><b>Defense</b> 8</td><td><b>Speed</b> 50</td></tr>
+<tr><td colspan="4"><b>Size</b> Medium</tr>
+<tr><td colspan="4"><b>Primary Ability: Red Fog</b><br>The Swarm can occupy the same space as any other creature, and must do so to attack a creature. The swarm can spend 1 Action while sharing a space with another creature to eat at that creature’s skin. The target takes 1d4 damage and must succeed a Might check or become Bleeding.</tr>
+<tr><td colspan="4"><b>Weakness:</b> A fire-based or holy attack or spell which hits the Mite Swarm causes it to die.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>One Thousand Mouths.</b> The Swarm cannot be damaged by any attack that requires the attacker to make an attack roll. The Swarm can only take damage from spells, skills, or abilities which cause the Swarm to make an ability check in order to evade damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Putrid Scent.</b> At the beginning of each round, all creatures within 10 feet of the Swarm must succeed a Might check against a DC of 10. Creatures who fail this check become Sapped by the crimson flock’s rancid smell until their next Rest.</td></tr></table>
+
+<hr />
+<h3 id="grim-shaman">Grim Shaman<a class="headerlink" href="#grim-shaman" title="Permanent link">#</a></h3>
+<p>These hulking shamans of the swamps and forests appear as hunched humanoids with dull exoskeletons and faces locked into mournful expressions. They utilize simple magical powers they draw from their fey nature to attack intruders. Purely malicious, they often revel in their prey’s pain, and will hang half-dead humanoids on poles as a threat to others that encroach on their territory. They have an eerie artistry to them, carving wind chimes from the bones of creatures they torture and kill, or creating scarecrows using the skin of people unfortunate enough to cross paths with them.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 2</td><td colspan="2"><b>Type</b> Fey</td></tr><tr><td style="border-top: 0;"><b>Agility</b> -3</td><td style="border-top: 0;"><b>Might</b> +4</td><td style="border-top: 0;"><b>Will</b> +2</td><td style="border-top: 0;"><b>Wit</b> +1</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 30</td><td><b>Defense</b> 8</td><td><b>Speed</b> 20</td></tr>
+<tr><td colspan="4"><b>Size</b> Large</tr>
+<tr><td colspan="4"><b>Primary Ability: Toxic Spew</b><br>The Grim Shaman spends 1 Action to spew a paralyzing venom from the top of its head in a 50 foot radius. Any Adventurers within the radius must succeed a Might check against a DC of 10 or take 1d4 damage and become Stunned until they spend 1 Action to succeed a Might check against a DC of 10.</tr>
+<tr><td colspan="4"><b>Weakness:</b> If the Grim Shaman is touched with saltwater or salt, it takes 2d10 damage.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Bramble Dart.</b> The Shaman makes an attack roll against an Adventurer within 50 feet. On a hit, the target is struck by a massive thorn and takes 1d6 damage. The target must then succeed a Might check against a DC of 10 or become Sapped.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Club.</b> The Shaman makes an attack roll against an Adventurer within 10 feet. On a hit, the target is struck by the Shaman’s mangled wooden club and takes 1d8 damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Swamp Secrets.</b> The Shaman knows and can cast 1 Witch spell which costs 5 Mana or less. They can cast this spell once per Rest.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Vine Snare.</b> The Bog Troll spends 1 Action to command a nearby vine to wrap around and hang an Adventurer within 50 feet. The target must succeed an Agility check against a DC of 10 or have their neck wrapped in a sinewy cambion noose. The target becomes Restrained, takes 1d4 damage, and is elevated 20 feet in the air. The hung target takes an additional 1d4 damage at the beginning of each subsequent round until they spend 1 Action to cut the vine they are hanging from.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Bone Jinx.</b> The Bog Troll tosses a handful of enchanted ivory runes on the ground and utters some guttural phrases. Any Adventurers within 10 feet of the Bog Troll must succeed a Will check against a DC of 15 or become Stunned until the beginning of the target's next turn.</td></tr></table>
+
+<hr />
+<h3 id="lizard-wizard">Lizard Wizard<a class="headerlink" href="#lizard-wizard" title="Permanent link">#</a></h3>
+<p>These slimy, gaunt humanoids have long reptilian snouts, scaly skin, and wide yellow eyes. Their bestial instincts are overridden by their affinity for the dark arts and their morbid curiosity. They work deep below the earth in small groups, constantly pursuing power through evil rituals and eldritch practices. They are known to steal magic artifacts from arcane colleges and kidnap powerful wizards to force them to spill their secrets. They wear simple robs and headdresses made from stolen arcane artifacts. innately evil, they are always looking for vulnerable creatures to capture and perform vile experiment on.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 3</td><td colspan="2"><b>Type</b> Shadow</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +2</td><td style="border-top: 0;"><b>Might</b> -3</td><td style="border-top: 0;"><b>Will</b> -1</td><td style="border-top: 0;"><b>Wit</b> +3</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 25</td><td><b>Defense</b> 10</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Small or Medium</tr>
+<tr><td colspan="4"><b>Primary Ability: Vile Bolt</b><br>The Lizard Wizard spends 1 Action to assault an Adventurer within 10 feet using a bolt of sickly green electricity. The Lizard Wizard makes an attack roll. On a hit, the target takes 1d8 damage and loses 2 Stamina.</tr>
+<tr><td colspan="4"><b>Weakness:</b> A Lizard Wizard’s two hearts are located in their hands. Attack rolls against a Lizard Wizard’s hands are made at disadvantage. On a hit against their hands, the Lizard Wizard dies instantly.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Twisted Charm.</b> The Lizard Wizard spends 1 Action to cast a magical charm over an Adventurer within 50 feet. The target must succeed a Will check against a DC of 10 or become Charmed by the Lizard Wizard until the beginning of the target's next turn. If the target is affected by this ability, the Charmed target makes an attack roll against their closest ally within range as a Reaction. If no allied Adventurer is within range, the Charmed target instead damages themselves for 1d6 damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Poisonous Bite.</b> The Lizard Wizard makes an attack roll against an Adventurer within 5 feet. On a hit, the target is dealt 1d6 damage and must succeed a Might check against a DC of 8 or become Sapped until the end of the combat encounter.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Dark Dealings.</b> The Lizard Wizard knows and can cast 2 Witch spells per Rest which cost 3 Mana or less.</td></tr></table>
+
+<hr />
+<h3 id="crawling-king">Crawling King<a class="headerlink" href="#crawling-king" title="Permanent link">#</a></h3>
+<p>A repulsive blood-letting insect of enormous size, the Crawling King is an especially disgusting and evil creature found in heavily wooded environments. They lie in wait for easy prey, hidden within tall grass and foliage. Sharing many physical features with the common tick, the Crawling King sustains itself off the blood of other creatures. They have six arachnid legs, and can use a gland around their eyes to spray their own toxic blood to disable their prey. They are opportunistic, and rarely take the risk to attack creatures larger than themselves. They are solitary and nomadic in their lifestyles.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 3</td><td colspan="2"><b>Type</b> Fey</td></tr><tr><td style="border-top: 0;"><b>Agility</b> -3</td><td style="border-top: 0;"><b>Might</b> +3</td><td style="border-top: 0;"><b>Will</b> 0</td><td style="border-top: 0;"><b>Wit</b> +2</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 30</td><td><b>Defense</b> 10</td><td><b>Speed</b> 40</td></tr>
+<tr><td colspan="4"><b>Size</b> Large</tr>
+<tr><td colspan="4"><b>Primary Ability: Leeching Bite</b><br>The Crawling King can spend 1 Action to make an attack roll with a bonus of +2 against an Adventurer within 5 feet of it. On a hit, the target becomes Restrained in the massive ticks mouth, takes 1d6 damage, and must make a Might check against a DC of 10 or become Bleeding. The target remains Restrained until it uses an Action to succeed a Might check against a DC of 10 or until the Crawling King chooses to release them as a Reaction.</tr>
+<tr><td colspan="4"><b>Weakness:</b> The King becomes Bleeding if it is hit with an electricity-based spell or attack.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Blood Spray.</b> The monstrous tick sprays toxic blood around itself in a 50 foot radius. Any Adventurers within range must succeed a Might check against a DC of 13 or take 1d6 damage and lose 2 Stamina.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Razor Claws.</b> The Crawling King makes an attack roll with a bonus of +2 against an Adventurer within 5 feet. On a hit, the target takes 1d4 damage and becomes Bleeding</td></tr></table>
+
+<hr />
+<h3 id="avalanche">Avalanche<a class="headerlink" href="#avalanche" title="Permanent link">#</a></h3>
+<p>A deadly cascade of snow, trees, and debris begins its breakneck stampede towards the Adventurers. The Adventurers must outrun or otherwise escape this great moving giant; there is no way to kill a force of nature so extreme.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 3</td><td colspan="2"><b>Type</b> Situation</td></tr><tr><td style="border-top: 0;"><b>Agility</b> 0</td><td style="border-top: 0;"><b>Might</b> 0</td><td style="border-top: 0;"><b>Will</b> 0</td><td style="border-top: 0;"><b>Wit</b> 0</td></tr>
+<tr><td><b>Actions</b> 1</td><td><b>Health</b> 50</td><td><b>Defense</b> 20</td><td><b>Speed</b> 50</td></tr>
+<tr><td colspan="4"><b>Size</b> Giant</tr>
+<tr><td colspan="4"><b>Primary Ability: Great White Wave</b><br>The Avalanche always has the highest initiative, and does not need to roll initiative for this reason. The Avalanche moves its entire Speed towards the Adventurers at the beginning of each of its turns. If the Avalanche touches any of the Adventurers, that Adventurer must make an Agility or Might check against a DC of 20 or become consumed by it. On a success, the Adventurer escapes the Avalanches clutches and finds shelter in the nook of a tree, underground crevice, or some other save spot of solace. An Adventurer consumed by the Avalanche becomes Unconscious and Stabilized, and becomes buried in the snow. Other creatures can spot an Adventurer buried in this way by succeeding a Wit check against a DC of 15.</tr>
+<tr><td colspan="4"><b>Weakness:</b> Contact with extreme heat causes the Avalanche to take 20 damage.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Run!.</b> The Avalanche will reach the Adventurers at the beginning of the fourth round in the encounter. If an Adventurer can move 120 feet east or west of their starting positions, they escape the Avalanche. An Adventurer can spend 2 Actions to push another creature, causing that creature to move an additional 20 feet as a Reaction, even if that creature has already spent all of their Speed during that round. If an Adventurer pushes a creature in this way, that Adventurer cannot move on their turn.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Errant Tree.</b> The Avalanche can use this skill once per encounter. A tree tumbles down the snow just ahead of the Avalanche. An Adventurer of the Guide’s choice must succeed an Agility check or be crushed and pinned by the tree. On a failure, the target takes 1d8 damage, becomes Wounded, and becomes Restrained</td></tr></table>
+
+<hr />
+<h3 id="necroid">Necroid<a class="headerlink" href="#necroid" title="Permanent link">#</a></h3>
+<p>This mysterious, hunched creature has wrinkled, bright green skin and is typically found within abandoned places of worship. It has no visible nose, only a single long black slit for a mouth and dark, hollowed crevices for eyes. It obsessively collects bodies and body parts either of creatures it ambushes and kills in a brutal fashion or discarded bodies it comes across. It hordes the bodies it finds in the dark and dust of empty cathedrals and temples. Despite its very instinctual movements and compulsions, it seems to harbor some semblance of intelligence. It is often spotted digging into graves and exploring catacombs in its desperate search to find new, interesting bodies to collect. The Necroid always has 1d6 corpses around it at all times, which it can raise as a Zombie Minion by using its Raise Dead ability. If the Necroid is in the process of journeying from one place to the next, it is pushing a rickety wooden cart to move its pile of bodies along with it.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 5</td><td colspan="2"><b>Type</b> Unholy</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +1</td><td style="border-top: 0;"><b>Might</b> -5</td><td style="border-top: 0;"><b>Will</b> +3</td><td style="border-top: 0;"><b>Wit</b> +3</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 50</td><td><b>Defense</b> 12</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Medium</tr>
+<tr><td colspan="4"><b>Primary Ability: Raise Dead</b><br> The Necroid spends 1 Action to raise a corpse it can see within 500 feet. This corpse animates and comes to life. This newly animated corpse becomes the Necroid’s companion, acts on the Necroid’s turn in initiative, and has the same statistics as the zombie minion described below.</tr>
+<tr><td colspan="4"><b>Weakness:</b> If the Necroid is hit with an attack that deals holy damage, that attack becomes a critical hit.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Profane Smite.</b> The Necroid spends 1 Action to make an attack roll with a bonus of +3 against an Adventurer within 5 feet. On a hit, the target is struck by the Necroid’s mace energized by unholy energy and takes 1d8 damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Necrotic Fume.</b> The Necroid spends 1 Action to launch a green vapor out of its pussing sores. Any living creatures within 50 feet must make a Might check against a DC of 15 or lose 1d6 Stamina and 1d6 Health. Any zombie minions within 50 feet regain 1d6 Health.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Corrupting Ray.</b> Once per Rest, the Necroid can spend 1 Action to fire a beam of black energy which damages its target’s mind. The Necroid makes an attack roll with a bonus of +3 against an Adventurer within 50 feet of it. On a hit, the target becomes Corrupted</td></tr>
+
+<table>
+<tr><td colspan="4"><b>Zombie Minion</b></td></tr>
+<tr><td style="border-top: 0;"><b>Agility</b> -3</td><td style="border-top: 0;"><b>Might</b> -3</td><td style="border-top: 0;"><b>Will</b> -3</td><td style="border-top: 0;"><b>Wit</b> -3</td></tr>
+<tr><td><b>Actions</b> 1</td><td><b>Health</b> 1</td><td><b>Defense</b> 8</td><td><b>Speed</b> 20</td></tr>
+<tr><td colspan="4"><b>Size</b> Medium</tr>
+</tr><tr><td colspan="4" style="border-top: 0;"><b>Clawing Grasp.</b> The zombie minion makes an attack roll against an Adventurer within 5 feet. On a hit, the target is dealt 1d4 damage and becomes Restrained.</td></tr>
+</table>
+
+</table>
+
+<p></div>
+<div style="grid-columns: 2/3; margin-left: 13px"></p>
+<h3 id="scrabbler">Scrabbler<a class="headerlink" href="#scrabbler" title="Permanent link">#</a></h3>
+<p>A natural creature found in dry, arid climates. The Scrabbler is typically nonaggressive unless agitated or intruded upon while in its nest. This deadly eight- legged arachnid shares many features with the common wolf spider, check for its exaggerated size and scorpion-like tail that protrudes from its back. The carnivorous beast has four glistening eyes and a pincer-like maw used for seeking out and rending flesh. Scrabblers are intelligent, and have an affinity for collecting treasures from the surface world in an attempt to appease their unending curiosity. Some have even been known to speak rudimentary, albeit horribly distorted, words of the Common in an attempt to intimidate humanoids. The Scrabbler can walk on walls and ceilings at will, and can attack targets in reach while suspended upside-down.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 5</td><td colspan="2"><b>Type</b> Shadow</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +8</td><td style="border-top: 0;"><b>Might</b> -1</td><td style="border-top: 0;"><b>Will</b> +3</td><td style="border-top: 0;"><b>Wit</b> -5</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 45</td><td><b>Defense</b> 11</td><td><b>Speed</b> 50</td></tr>
+<tr><td colspan="4"><b>Size</b> Huge</tr>
+<tr><td colspan="4"><b>Primary Ability: Sting</b><br>The Scrabbler spends 1 Action to make an attack roll with a +3 bonus against an Adventurer within 10 feet of it. On a hit, the target is struck by the Scrabbler’s scorpion-like stinger and takes 1d8 damage. On a successful attack roll with the stinger, the Scrabbler can choose to inject either venom or eggs into its target as a Reaction. (Venom) The target must succeed a Might check against a DC of 10 or become Stunned until the end of the next round. (Eggs) The eggs hatch at the beginning of the target's next turn and spring out of the wound left by the stinger. The eggs contain 1d4 infantile Scrabblers, and the hatching of the eggs causes the target to become Wounded. The target can use 1 Action to remove and destroy 1 egg before they hatch.</tr>
+<tr><td colspan="4"><b>Weakness:</b> Electric damage deals an additional 1d10 damage against the Scrabbler.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Web.</b> The Scrabbler spends 1 Action in an attempt to entangle an Adventurer with its pincers and weave it into a coccoon of webbing. The target must make an Agility check against a DC of 12 or become Restrained and suspended 30 feet in the air from a thick threading of webbing.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Secretion.</b> The Scrabbler leaves a trail of boiling orange mucus behind it whenever it moves that is acidic and sticky. Any Adventurer that moves through the mucus trail takes 1d4 damage and must make a Might check against a DC of 10 or lose 2 Stamina and become Encumbered</td></tr></table>
+
+<hr />
+<h3 id="accident">Accident<a class="headerlink" href="#accident" title="Permanent link">#</a></h3>
+<p>A morbid collection of items, body parts, and magical debris, these lumps of floating flesh and arcane implements are the result of a powerful ritual gone wrong. They haunt abandoned wizard towers and long forgotten shrines, mindlessly consuming the flesh and spirit of any Adventurer or wanderer that stumbles upon them. They float in the air, instinctively grasping at their surroundings and tossing debris around them in a constant tantrum of rage and anguish.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 6</td><td colspan="2"><b>Type</b> Unholy</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +2</td><td style="border-top: 0;"><b>Might</b> +5</td><td style="border-top: 0;"><b>Will</b> +6</td><td style="border-top: 0;"><b>Wit</b> -5</td></tr>
+<tr><td><b>Actions</b> 2</td><td><b>Health</b> 60</td><td><b>Defense</b> 12</td><td><b>Speed</b> 40</td></tr>
+<tr><td colspan="4"><b>Size</b> Huge</tr>
+<tr><td colspan="4"><b>Primary Ability: Chaotic Pulse</b><br>The Accident spends 1 Action to let loose a wailing scream, causing an Arcane Anomaly to occur.</tr>
+<tr><td colspan="4"><b>Weakness:</b> A Mage’s Dispel ability causes the Accident to take 2d10 damage.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Orbit of Entropy.</b> If an item is dropped or thrown within 100 feet of the Accident, that item or item becomes caught in the Accident’s aura and begins floating within 5 feet of the Accident. The lost item is locked into place in the air near the Accident, and can only be reclaimed once the Accident is reduced to 0 Health.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Arcane Toxicity.</b> Whenever the Accident reduces an Adventurer to 0 Health, the target becomes Corrupted and loses 1 Mortality as a Reaction.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Arcane Shot.</b> The Accident can spend 1 Action to launch a blast of reality-warping arcane energy. The Accident makes an attack roll with a bonus of +5 against an Adventurer within 50 feet. On a hit, the target takes 1d8 damage and loses 1d4 Mana</td></tr></table>
+
+<hr />
+<h3 id="pale-orphan">Pale Orphan<a class="headerlink" href="#pale-orphan" title="Permanent link">#</a></h3>
+<p>The hulking, primordial Titans stand as tall as the length of two men and wield massive iron mauls. They have pale skin and one massive red eye, pupiless and embedded in the folds of their permanently scowling brows. Abandoned by their dead god, these orphans of malice and chaos seek to wipe all of creation away. With no guiding force, however, they have become wayward orphans who fear the retaliation of the mortals. Titans live forever if left alone, but can die if killed by another creature. They are insular, living their violent and dark lives in the bowels of canyons and caves. Titans are heavily indoctrinated in their contempt and hatred, and cannot be reasoned with. Their almost religious maliciousness towards mortals and growth make them a constant threat to travelers and explorers who dare delve too deep.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 6</td><td colspan="2"><b>Type</b> Pale</td></tr><tr><td style="border-top: 0;"><b>Agility</b> -3</td><td style="border-top: 0;"><b>Might</b> +8</td><td style="border-top: 0;"><b>Will</b> +3</td><td style="border-top: 0;"><b>Wit</b> -3</td></tr>
+<tr><td><b>Actions</b> 3</td><td><b>Health</b> 80</td><td><b>Defense</b> 5</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Huge</tr>
+<tr><td colspan="4"><b>Primary Ability: Monstrous Strike</b><br>The Titan spends 1 Action to swing its massive iron broadsword down on an Adventurer. The Titan makes an attack roll with a bonus of +5 against an Adventurer within 10 feet. On a hit, the target takes 2d8 damage and becomes Wounded.</tr>
+<tr><td colspan="4"><b>Weakness:</b> An attack roll can be made against the Titan’s eye. This attack roll is made at disadvantage. On a hit, the Titan takes an additional 1d10 damage and becomes permanently Blinded.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Grasp.</b> The Titan spends 1 Action to make an attack roll against an Adventurer within 10 feet. On a hit, the target becomes Restrained and elevated 30 feet in the air. On its subsequent turns, the Titan can choose to squeeze the grasped target, dealing 1d8 damage to them.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Stomp.</b> The Titan spends 1 Action to stomp on an Adventurer. The Titan makes an attack roll with a bonus of +5 against an Adventurer within 10 feet. On a hit, the target takes 1d12 damage and becomes Prone.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Undying Ancient.</b> Once per Rest, whenever the Titan is reduced to 0 Health, it can instead choose to remain standing and regain 1d10 Health.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Pale Beam.</b> The Titan can spend 1 Action to launch a beam of pale, nullifying energy from its single eye. Any Adventurers within 50 feet must succeed a Will check against a DC of 10 or take 1d8 damage and lose 1d8 Mana</td></tr></table>
+
+<hr />
+<h3 id="slythen">Slythen<a class="headerlink" href="#slythen" title="Permanent link">#</a></h3>
+<p>Ancient wyrms from the realm of the fae, the Slythen moves its long body across the forest floor with the aid of hundreds of vaguely humanoid legs. Its body is covered in pastel fur that oozes with a paralyzing toxin, and its alien head is constantly swiveling around in search of trinkets to steal and flesh to consume. A prehensile tongue wrapped in its slobbering maw is used to restrain and capture not only sustenance, but items and items that the Slythen finds fascinating. The Slythen has an instinctual and unbridled compulsion to hoard. Being compulsive in its collecting and nomadic in its lifestyle, it has evolved a cavity within its caterpillar-like body to store its stolen belongings. This cavity runs down the entirety of the Slythen’s frame. Food and nourishment eaten by the Slythen is absorbed by its stomach acids within this cavity, but its hoarded items remain tucked away, forgotten and covered in deadly secretions.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 7</td><td colspan="2"><b>Type</b> Fey</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +5</td><td style="border-top: 0;"><b>Might</b> +3</td><td style="border-top: 0;"><b>Will</b> +3</td><td style="border-top: 0;"><b>Wit</b> +2</td></tr>
+<tr><td><b>Actions</b> 3</td><td><b>Health</b> 70</td><td><b>Defense</b> 13</td><td><b>Speed</b> 40</td></tr>
+<tr><td colspan="4"><b>Size</b> Huge</tr>
+<tr><td colspan="4"><b>Primary Ability: Consume</b><br>The Slythen spends 1 Action in an attempt to consume an Adventurer or an item. Adventurers must make an Agility check against a DC of 12 or be swallowed by the Slythen. From the inside, the Slythen’s body looks like a long, rounded, crimson cavern covered with random debris and items. Items automatically fail their Agility check to avoid this ability, unless held by an Adventurer. If the Slythen attempts to Consume an item held by an Adventurer, the Adventurer holding it must make a Might check against a DC of 12 or have the item ripped from their grasp and pulled into the Slythen’s stomach.</tr>
+<tr><td colspan="4"><b>Weakness:</b> Acid and poison deals 2d12 damage to the Slythen if the Slythen ingests it.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Jagged Bite.</b> The Slythen spends 1 Action to make an attack roll against an Adventurer with its jagged maw. On a hit, the target takes 1d10 damage and becomes Bleeding.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Belly of the Beast.</b> Adventurers who have been Consumed take 1d6 damage at the beginning of each round while within the Slythen’s stomach. A Consumed Adventurer can spend 1 Action to make a Might check against a DC of 18 in order to escape the stomach. Otherwise, the consumed Adventurer is trapped within and can only be expelled from the stomach through magical means or having been cut out from it after the Slythen has been killed</td></tr></table>
+
+<hr />
+<h3 id="fur-hag">Fur Hag<a class="headerlink" href="#fur-hag" title="Permanent link">#</a></h3>
+<p>Wrapped in uncured skins and decaying hides, these vile, lurching creatures make their homes in the wilderness near settlements. They draw their power from fear, frustration, and anguish. To harvest this emotional sustenance, they use their cunning and spell craft to plague a chosen local populace with schemes of mysterious torment. Fur Hags will kidnap children, lynch innocent villagers during the night, poison a town’s water, or corrupt nearby animals in their attempts to cause a settlement disease and paranoia. Fur Hags value self-preservation, however, and are not typically bold in their plots. These evil acts can sometimes take place months apart from each other, but are more often than not done in a pattern of some kind due to the Fur Hag’s necessity for feeding off a population’s negative emotional energy. Their appearance is far from humanoid, and is more akin to a shambling mass or pile of fur, skin, bones, teeth, and body parts.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 7</td><td colspan="2"><b>Type</b> Fey</td></tr><tr><td style="border-top: 0;"><b>Agility</b> 0</td><td style="border-top: 0;"><b>Might</b> +3</td><td style="border-top: 0;"><b>Will</b> +6</td><td style="border-top: 0;"><b>Wit</b> +6</td></tr>
+<tr><td><b>Actions</b> 3</td><td><b>Health</b> 62</td><td><b>Defense</b> 18</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Medium</tr>
+<tr><td colspan="4"><b>Primary Ability: Torturous Hex</b><br>The Fur Hag spends 1 Action to shake a staff filled with rattling seeds. A Adventurer of the Fur Hag’s choice within 100 feet takes 1d8 damage and loses 1 Action until the end of the Fur Hag’s next turn. The Fur Hag can choose to Chant during its subsequent turns to prolong and maintain the effects of this ability on the target. Each time the target begins their turn while under the effects of this ability, they take an additional 1d8 damage.</tr>
+<tr><td colspan="4"><b>Weakness:</b> Being damaged by fire causes the Hag’s furs to burn away, reducing the Hag’s Defense by 2.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Claw.</b> The Hag spends 1 Action to strike a creature within 10 feet with her talons. The Hag makes an attack roll with a bonus of +3. On a hit, the target takes 1d8 damage and and becomes Bleeding.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Eldritch Resistance.</b> The Hag rolls ability checks with advantage to avoid or resist spell effects.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Eldritch Invocation.</b> The Fur Hag knows and can cast 5 Witch spells which cost 3 Mana or less.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Soul Shatter.</b> The Fur Hag can spend 2 Actions to curse an Adventurer within 50 feet. The target must succeed a Will check against a DC of 15 or lose 1 Mortality</td></tr></table>
+
+<hr />
+<h3 id="horror">Horror<a class="headerlink" href="#horror" title="Permanent link">#</a></h3>
+<p>The Horror originates within the darkest reaches of mortal kin’s imagination. It is fear, torment, and disgust incarnate. Their appearance is apt; that of a pale, tentacled, egg-shaped being of immense size that inexplicably floats through the air in a ghostly and eerie manner. The creature is able to warp reality around itself to terrifying extents, and innately able to cast dark spells from its tentacles. A singular large eye stares ahead from within the Horror’s floating form, unblinking and perpetually seeking out its next source of nourishment to sustain its unending hunger for flesh and fear. Three other eyes are sunken into pockets of flesh at the tip of each of its tentacles, which dangle from underneath its gargantuan form. Horrors are an immense threat, and most Adventurers should be more inclined to fleeing from them rather than standing their ground against such a fearsome abomination.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 8</td><td colspan="2"><b>Type</b> Unholy</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +2</td><td style="border-top: 0;"><b>Might</b> +1</td><td style="border-top: 0;"><b>Will</b> +10</td><td style="border-top: 0;"><b>Wit</b> +2</td></tr>
+<tr><td><b>Actions</b> 3</td><td><b>Health</b> 80</td><td><b>Defense</b> 14</td><td><b>Speed</b> 30</td></tr>
+<tr><td colspan="4"><b>Size</b> Large</tr>
+<tr><td colspan="4"><b>Primary Ability: Gaze</b><br>Cost: 1 Action. The massive pupiless eye of the Horror stares at a creature within 500 feet, invading their mind and shattering their resolve. The target must succeed a Will check against a DC of 10 or become shaken with immense and unimaginable fear. On a failure, the target becomes Stunned and loses 1d4 Stamina at the beginning of each round that this Gaze is maintained. The Gaze can be interrupted by breaking the line of sight between the Horror and its target, or by causing the Horror to become Blinded, Stunned or Unconscious. If the target of the Gaze reaches 0 Stamina as a result of the Gaze’s effects, they become both Exhausted and Corrupted.</tr>
+<tr><td colspan="4"><b>Weakness:</b> A reflective surface, such as a mirror or shining shield, reflects a Horror’s Gaze back on itself.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Grasp.</b> The Horror can lash out with its tendrils in an attempt to entangle a creature within 10 feet of it. The target must succeed an Agility check against a DC of 10 or become Restrained. A target Restrained by the tentacle is elevated 30 feet in the air. The Horror can spend 1 Action to dig its tentacle’s spurs into the Restrained target to automatically deal 1d8 damage to them.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Decay.</b> The Horror spends 1 Action to expel a black vapor from its fanged maw that coils around a creature within 50 feet and drains their energy. The target must succeed a Might check against a DC of 10 or lose 1d4 Mana, 1d4 Stamina, and 1d4 Health.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Null Beam.</b> The Horror spends 1 Action to fire a beam of black energy at a creature within 50 feet. The Horror makes an attack roll with a bonus of +3. On a hit, the target takes 1d8 damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Psychic Invader.</b> Any creature within 100 feet of the Horror is completely susceptible to its Innate ability to invade their minds and read their thoughts. Unless the creature has an ability, skill, or item that guards against psychic invasion, the Horror is automatically able to perfectly understand each thought a creature has, as well as their intent in battle</td></tr></table>
+
+<hr />
+<h3 id="ichor-lord">Ichor Lord<a class="headerlink" href="#ichor-lord" title="Permanent link">#</a></h3>
+<p>A decrepit, evil spirit from the realm of shadows that seeks to twist and control the mortal realm. They are parasitic, taking control of a mortal vessel as a means of defilement and a tool of trickery and locomotion. The Ichor Lord takes on qualities of its host, and often exaggerates them, creating a new personality for itself. This ironic corruption serves as both a means of terrorizing innocent mortals and to entertain the Ichor Lord itself. The Ichor Lord causes corruption, insanity, decay, disease, infection, repulsion, and illness with no remorse, and has no qualms about its place in the world. It consideres its role in the world to be a divine art, but has no ego. It knows what it lusts after and appreciates the journey to it. It would rather ruin the lives of innocent mortals and revel in their suffering than kill them. Battling such an entity is sure to result in a very slow, torturous death in the most humiliating and dreadful manner imaginable.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 9</td><td colspan="2"><b>Type</b> Shadow</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +12</td><td style="border-top: 0;"><b>Might</b> +8</td><td style="border-top: 0;"><b>Will</b> +6</td><td style="border-top: 0;"><b>Wit</b> +10</td></tr>
+<tr><td><b>Actions</b> 4</td><td><b>Health</b> 90</td><td><b>Defense</b> 16</td><td><b>Speed</b> 40</td></tr>
+<tr><td colspan="4"><b>Size</b> MediumorLarge</tr>
+<tr><td colspan="4"><b>Primary Ability: Defiling Ooze</b><br>The Ichor launches a sphere of toxic black slime from its form in a 10 foot radius area within 100 feet of it. Any creatures within this radius must succeed an Agility check against a DC of 10 or take 2d12 damage and become Corrupted. If the creatures within the radius fails, they instead take 1d12 damage.</tr>
+<tr><td colspan="4"><b>Weakness:</b> If the Lord is attacked with a water-based spell or water itself, it becomes Wounded.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Black Sting.</b> The Ichor creates and hardens a tendril of black, oily matter. The Ichor makes an attack roll with a bonus of +5 against an Adventurer within 10 feet. On a hit, the target takes 1d12 damage.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Dark Rebirth.</b> If the Ichor Lord reduces a creature to 0 Health, they can choose to possess that creature as a Reaction. The target becomes possessed by the Ichor Lord. The Ichor Lord and its new host body take on one form, with the host’s skin becoming black as tar, and their eyes a bright white, as if their eyes were just vacant holes with a blank light shining through. The Ichor Lord takes on a new personality, an exaggerated and twisted personality of its new host’s most prominent emotions and goals. The Ichor Lord regains 5d10 Health, and gains its host’s primary ability and skills. The creature that is possessed in this manner dies forever and cannot resurrected.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Liquefied Movement.</b> Whenever the Ichor Lord moves, they can choose to do so two dimensionally, as if under the effects of the Dimensional Compression spell.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Eerie Aura.</b> Each creature within 50 feet of the Ichor Lord at the beginning of a round loses 1d4 Stamina and 1d4 Mana.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Toxic Vapor.</b> Once per Rest, the Ichor Lord can spend 1 Action to release a cloud of black fumes around itself in a 100 foot radius. Any creatures within range must succeed a Might check against a DC of 20 or become Sapped until their next Rest</td></tr></table>
+
+<hr />
+<h3 id="crystal-dragon">Crystal Dragon<a class="headerlink" href="#crystal-dragon" title="Permanent link">#</a></h3>
+<p>These ancient, Etheric beings have long lost their way due to their maddening immortality. They use powerful magic unknown to mortals to further their goals and strike fear into the heart of lesser creatures. Hidden deep below the surface, they manufacture cunning schemes in order to grasp at the power and dominance they so desperately hunger for. They often utilizevastnetworksof ruthlesslydeterminedminions to act out their will on the surface. These minions are sometimes cunning and powerful themselves, working in unison with the Crystal Dragon in exchange for a promised sliver of greater power. Most of the minions, however, give into the Dragon’s cruelty and foreboding presence, viewing their servitude as the only path of escape from the Crystal Dragon’s maddening influence. The Crystal Dragons come in many shapes and shades, but are always heavily encrusted with chunks of raw minerals that grow from their scales. These crystals grow in whatever manner the dragon wishes, and are often twisted into jagged crowns atop the dragon’s head - a symbol of their twisted egomania. The Crystal Dragon can fly at a rate equal to its Speed, and can innately see Invisible creatures.   </p>
+<table>
+<tr><td colspan="2"><b>Challenge Rating</b> 10</td><td colspan="2"><b>Type</b> Etheric</td></tr><tr><td style="border-top: 0;"><b>Agility</b> +4</td><td style="border-top: 0;"><b>Might</b> +4</td><td style="border-top: 0;"><b>Will</b> +4</td><td style="border-top: 0;"><b>Wit</b> +8</td></tr>
+<tr><td><b>Actions</b> 4</td><td><b>Health</b> 120</td><td><b>Defense</b> 18</td><td><b>Speed</b> 50</td></tr>
+<tr><td colspan="4"><b>Size</b> Giant</tr>
+<tr><td colspan="4"><b>Primary Ability: Radiation Beam</b><br>The Crystal Dragon spends 1 Action to fire a beam of prismatic radiation from its kaleidoscope eyes. The beam fires at and sears through up to three targets of the Crystal Dragon’s choice. If the beam targets a creature, that creature must succeed an Agility check against a DC of 16 or take 2d10 damage. If the target rolls a natural 1 on this Agility check, they become Wounded. If the beam targets an item or structure with this ability, and that structure or item is nonmagical, it becomes Broken. Once this beam is used, the Dragon cannot use it again until it recharges. On each of the Dragon’s subsequent turns, roll 1d6. On a roll of 5 or higher, the beam becomes recharged and ready to use again. On a roll of 4 or lower, the beam does not recharge, and cannot be used until it becomes recharged once more.</tr>
+<tr><td colspan="4" style="border-bottom: 0;"><b>Shard Strike.</b> The Crystal Dragon launches a spike of rainbow stone from its jagged crown. The Crystal Dragon makes an attack roll with a bonus of +5 against a creature within 100 feet. On a hit, the target takes 1d10 damage. If the target has any allies within 10 feet, those allies take 1d4 damage as the crystal spike shatters.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Ancient Arcana.</b> The Crystal Dragon knows and can cast 5 Witch or Bard spells of the Guide’s choice. These spells must cost 10 Mana or less, and the Dragon can cast each of these spells once per Rest.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Crystal Prison.</b> The Crystal Dragon can spend 2 Actions to summon a transparent, rounded crystal shell that bursts from the ground and encases a creature within 100 feet. The target must succeed an Might check against a DC of 15 or be frozen in the 211shell, becoming Stunned. The affected target is Stunned in this way until another, separate creature spends 1 Action to break their crystal prison by succeeding on a Might check against a DC of 15.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Prismatic Hypnosis.</b> The Crystal Dragon spends 1 Action to make an inky prismatic pattern appear on its massive eyes. All creatures within 100 feet must succeed a Wit check against a DC of 15 or become Charmed by the Dragon until the beginning of the Dragon’s next turn. If the any of the affected creatures have not yet taken a turn in the current round, that creature’s Actions and Speed are controlled by the Dragon whenever that affected creature’s turn begins.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Flight.</b> The Dragon can fly a Speed equal to its default Speed.</td></tr><tr><td colspan="4" style="border-top: 0;"><b>Mineralized Hide.</b> If the Crystal Dragon takes damage from an nonmagical attack, it reduces the damage it has taken from that attack by 1d6</td></tr></table>
+
+<p></div>
+</div></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Conditions - Hands of Ether</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../magic/">Magic</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../magic/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../catastrophes/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#conditions">Conditions</a></li>
+            <li><a href="#broken">Broken</a></li>
+            <li><a href="#blinded">Blinded</a></li>
+            <li><a href="#charmed">Charmed</a></li>
+            <li><a href="#corrupted">Corrupted</a></li>
+            <li><a href="#covered">Covered</a></li>
+            <li><a href="#encumbered">Encumbered</a></li>
+            <li><a href="#exhausted">Exhausted</a></li>
+            <li><a href="#invisible">Invisible</a></li>
+            <li><a href="#prone">Prone</a></li>
+            <li><a href="#restrained">Restrained</a></li>
+            <li><a href="#sapped">Sapped</a></li>
+            <li><a href="#stabilized">Stabilized</a></li>
+            <li><a href="#stunned">Stunned</a></li>
+            <li><a href="#unconscious">Unconscious</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">#</a></h1>
+<p>Conditions alter a creature’s capabilities in a variety of ways and can arise as a result of a spell, a class ability, a monster’s attack, or other effects. Most conditions, such as being Blinded, are impairments. A few, however, can be advantageous. A condition lasts either until it is countered (the effects of the Unconscious condition end when the affected creature is healed, for example) or for a duration specified by the effect that caused the condition.  </p>
+<p>If multiple effects impose the same condition on a creature, the condition’s effects don’t get worse. A creature either has a condition or it doesn’t. The following definitions specify what happens to a creature while it is subjected to a certain condition. The effects of conditions are not permanent by default.  </p>
+<h3 id="broken">Broken<a class="headerlink" href="#broken" title="Permanent link">#</a></h3>
+<p>This condition can only be gained by items and structures. Broken items cannot be used by a creature. Broken structures fall to the ground and become loose debris. By default, enchanted and magical items cannot become Broken.  </p>
+<h3 id="blinded">Blinded<a class="headerlink" href="#blinded" title="Permanent link">#</a></h3>
+<p>Blinded creatures cannot see, and make attack rolls with disadvantage.  </p>
+<h3 id="charmed">Charmed<a class="headerlink" href="#charmed" title="Permanent link">#</a></h3>
+<p>Creatures with this condition consider their charmer an ally, and cannot target them with damaging abilities, skills, spells, or attacks. The charmer makes Will checks with advantage when attempting to socially influence their Charmed target.  </p>
+<h3 id="corrupted">Corrupted<a class="headerlink" href="#corrupted" title="Permanent link">#</a></h3>
+<p>Creatures that have been Corrupted gain a single Corruption from the Corruption table. The effects of a Corruption last until it is cured by a spell, ability, or skill that can cure a Corruption. A creature cannot have more than 1 Corruption at the same time.  </p>
+<h3 id="covered">Covered<a class="headerlink" href="#covered" title="Permanent link">#</a></h3>
+<p>Creatures that are Covered gain a +3 bonus to their Defense.  </p>
+<h3 id="encumbered">Encumbered<a class="headerlink" href="#encumbered" title="Permanent link">#</a></h3>
+<p>An Encumbered creature’s Speed becomes 20.  </p>
+<h3 id="exhausted">Exhausted<a class="headerlink" href="#exhausted" title="Permanent link">#</a></h3>
+<p>Exhausted creatures make all ability checks and attack rolls with disadvantage. If a creature uses or loses 2 Stamina while they are Exhausted, they become Unconscious and Stabilized.  </p>
+<h3 id="invisible">Invisible<a class="headerlink" href="#invisible" title="Permanent link">#</a></h3>
+<p>Creatures with this condition cannot be seen. Attack rolls against Invisible creatures have disadvantage. Invisible creatures roll with advantage on all Agility checks made in an attempt to hide or sneak.  </p>
+<h3 id="prone">Prone<a class="headerlink" href="#prone" title="Permanent link">#</a></h3>
+<p>Prone creatures lay flat on the ground. Crawling while Prone is considered movement over Rough terrain. Attack rolls against Prone creatures have advantage if the attacker is within melee range of the creature. Otherwise, attack rolls against a Prone creature have disadvantage.  </p>
+<h3 id="restrained">Restrained<a class="headerlink" href="#restrained" title="Permanent link">#</a></h3>
+<p>A Restrained creature’s Speed becomes 0.  </p>
+<h3 id="sapped">Sapped<a class="headerlink" href="#sapped" title="Permanent link">#</a></h3>
+<p>A Sapped creature has disadvantage on all ability checks.  </p>
+<h3 id="stabilized">Stabilized<a class="headerlink" href="#stabilized" title="Permanent link">#</a></h3>
+<p>A Stabilized creature is Unconscious but does not roll Mortality checks.  </p>
+<h3 id="stunned">Stunned<a class="headerlink" href="#stunned" title="Permanent link">#</a></h3>
+<p>A Stunned creature cannot use any Actions or Free Actions, and their Speed becomes 0. Attack rolls made against Stunned creatures are rolled with advantage.  </p>
+<h3 id="unconscious">Unconscious<a class="headerlink" href="#unconscious" title="Permanent link">#</a></h3>
+<p>An Unconscious creature is Stunned, Prone, can’t move or speak, and is completely unaware of its surroundings. Unconscious creatures automatically fail all ability checks. Creatures that become Unconscious during a combat encounter make 1 Mortality check on each of its subsequent turns, beginning with its next turn after it becomes Unconscious.  </p>
+<p>(Wounded) CreaturesthathavebeenWoundedgaina single Wound from the Wound table. The effects of a Wound last until it is cured by a spell, item, or skill that can cure a Wound. A bandage, for instance, cures a creature who is Bleeding. A creature cannot have more than 1 Wound at the same time. Some skills and spells will specify which particular Wound a creature becomes afflicted with.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

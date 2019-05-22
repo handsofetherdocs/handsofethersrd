@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Catastrophes - Hands of Ether</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../conditions/">Conditions</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../conditions/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../items/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#catastrophes">Catastrophes</a></li>
+            <li><a href="#arcane-anomalies">Arcane Anomalies</a></li>
+            <li><a href="#corruptions">Corruptions</a></li>
+            <li><a href="#mechanical-mishaps">Mechanical Mishaps</a></li>
+            <li><a href="#wound-table">Wound Table</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="catastrophes">Catastrophes<a class="headerlink" href="#catastrophes" title="Permanent link">#</a></h1>
+<p>The world of Hands of Ether is a chaotic and dangerous one. Of the many threats that Adventurers face, the catastrophes listed in the following tables are the most extreme. Sometimes luck is in favor of the Adventurer, and the result of a catastrophic event could be exactly what they need at a pivotal moment. Most of the time, however, catastrophes should be avoided at all costs. Catastrophes always occur as a Reaction, and it is suggested that the result of most catastrophes be rolled or determined by the Guide. Catastrophic Events come in four forms.  </p>
+<p>Arcane Anomalies are the most common form of catastrophe. Magic is a chaotic force that can often spiral out of control. It is a force that even casters themselves hardly understand. Magic thinks, feels, and can and will often betray those that attempt to wield it, no matter their prowess.  </p>
+<p>Corruption is when a creature is cursed, tormented, or driven insane either of their own accord or by the hand of another being. Avoiding Corruption is detrimental to an Adventurer's mental and emotional wellbeing. A number of unholy or deeply evil things could cause Corruption to afflict an Adventurer, with the most common cause of Corruption being the stress of adventuring itself.  </p>
+<p>Mechanical Mishaps occur when some form of technology goes malfunctions. An alchemist could splash acid into his eyes by accident or a smith could scald himself on a freshly heated blade. These effects, although harmful, are easily and quickly cured.  </p>
+<p>Lastly, the most detrimental catastrophe that an Adventurer could face is a Wound. Sometimes Adventurers will sustain an injury that is so brutal and gruesome that they are unable to heal them from Rest or natural recovery. These lingering injuries can still be healed by certain spells and abilities, but for the most part should be avoided at all costs.</p>
+<h2 id="arcane-anomalies">Arcane Anomalies<a class="headerlink" href="#arcane-anomalies" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th align="center">d20</th>
+<th>Arcane Anomaly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td><strong>Cataclysm.</strong> Something unfortunate and atrocious happens. The exact details of this event are determined by the Guide.</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>Magical Malfunction.</strong> Your magic is sporadic and out of your control. Roll on this table three additional times, ignoring this result on subsequent rolls. In addition, your Mana becomes completely depleted.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>Backfire.</strong> Your magic combusts and causes you harm. Make an Agility check against a DC of 10. On a failure, you become Wounded. All other creatures within 10 feet of you take 1d10 damage.</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>Flash.</strong> A bright flash of arcane energy combusts in your face. You become Stunned until the end of the next round. All other creatures within 10 feet of you become Blinded until the beginning of the target's next turn.</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>Glitch.</strong> A magical error damages the integrity of your mind. You cast a Witch spell of the Guide’s choice, and you become Corrupted.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td><strong>Duplicate.</strong> A perfect simulacrum of yourself appears within 50 feet of you, resting on the ground and devoid of consciousness.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td><strong>Uncontrolled Blasts.</strong> You expel multiple bursts of arcane energy. Each creature within 50 feet of you must succeed an Agility check against a DC of 10 or take 2d6 damage.</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td><strong>Wings.</strong> You cast the Fly spell on yourself for 0 Mana.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td><strong>Phoenix.</strong> If you die within the next minute, a mysterious magic jolts you back to life and consciousness. You regain your maximum Health and maximum Mortality.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td><strong>Speed.</strong> You cast the Haste spell on yourself for 0 Mana.</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td><strong>Strange Recovery.</strong> Magic is pulled from the environment around you and flows into you, recharging your arcane energy. You regain 1d8 Mana.</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td><strong>Growth Spurt.</strong> You instantaneously grow one size larger, and any hair on your body grows twelves inches. Your size decreases back to its default state after 1 minute, but the growth of your hair remains.</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td><strong>Weird.</strong> Something strange occurs. The Guide determines the details of this event.</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td><strong>Spontaneous Ward.</strong> A spectral shell appears around you. You become Covered for 1 minute.</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td><strong>Arcane Boon.</strong> Your magic weaves itself into your body and enhances your abilities. You roll with advantage on all ability checks you make for 1 minute.</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td><strong>Formidable Empowerment.</strong> Your attacks become focused and powerful for a moment. Your next successful attack roll becomes a critical hit.</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td><strong>Guide’s Gamble.</strong> You cast a single spell for 0 Mana. The Guide determines which spell you cast in this manner.</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td><strong>Shift.</strong> You teleport to a random place, determined by the Guide, within 100 feet of your original position.</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td><strong>Pyrobeatus.</strong> Choose a creature within range. That target takes 3d6 damage as they are blasted by a concentrated bolt of magical black flame.</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td><strong>Deliverance.</strong> Threads of Ether burst forth and weave through the air in a dazzling display. The vibrant, electric threads collide with yourself and all allies who you can see. You and all allies within visual range gain the benefits of a Rest.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="corruptions">Corruptions<a class="headerlink" href="#corruptions" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th align="center">d20</th>
+<th>Corruption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td><strong>Insane.</strong> You become completely insane. You become a lethargic, gibbering shadow of your former self. You fall under the effects of the Enfeeble spell.</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>Broken Spirit.</strong> Your willpower is hanging on by a thread. You do not regain Mortality on Rests, and you are plagued by nightmares.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>Cursed.</strong> Dark magic has weaved its way into your body, latching onto your soul like a parasite. Whenever you roll a natural 1 on an attack roll or ability check, an Arcane Anomaly occurs.</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>Unseen Things.</strong> You begin to suffer from extreme paranoia, complete with hallucinations and vivid nightmares of some dark, unseen force. You have disadvantage on all Will checks.</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>Frayed Thread.</strong> Your ties to the Ether have been cut thin. If you are a caster, it costs you 1 more Mana than it normally would to cast a spell. If you are not a caster, you spend twice as much Stamina as you normally would when spending Stamina to use a skill.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td><strong>Lost Moments.</strong> You suffer partial amnesia, losing access to one of your class skills or spells. The Guide chooses which skill or spell you lose access to.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td><strong>Terrified.</strong> You have become stricken with fear and horror. You automatically fail all Will checks, and you become Encumbered due to your cautionary nature. In addition, the number of Actions you have decreases by 1 due to your hesitation in combat.</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td><strong>Possessed.</strong> Your damaged psyche is seen by a malevolent spirit as an opportunity to latch onto your spirit and feed off of your physical and magical energy. You maximum Mana and Stamina decrease by 2. The spirit’s taunting is heard by you, but not by your companions. The spirit can compel you to perform an action of its choice once per Rest. If it attempts to do so, you must succeed a Will check against a DC of 15 or perform the action. Upon dispelling or curing this corruption, the spirit physically manifests in the space directly in front of the formerly possessed creature, and the formerly possessed creature becomes Unconscious and is considered Stabilized. The spirit has the statistics of any creature or monster that the Guide wishes.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td><strong>Murderous.</strong> You harbor a murderous intent towards any creature you do not consider an ally, going into a reckless frenzy whenever you see an enemy. If an enemy is seen by you, you must immediately attempt to kill that enemy. You have advantage on all attack rolls made, and all attack rolls against you have advantage.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td><strong>Hysterical.</strong> You begin to suffer from bursts of crazed laughter as well as a number of tremors and tics. You make all Might checks at disadvantage.</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td><strong>Murky Mind.</strong> You have become easily distracted, and your mental focus has been lost. You feel as though a thick haze has fallen over your senses. You have disadvantage on all Wit checks.</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td><strong>Haunted.</strong> Nightmarish visions plague you while you are both awake and dreaming.</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td><strong>Soul Scar.</strong> A deep madness, like a lodged bullet, embeds itself into the cord which binds you to the Ether. Your threads are bleached and slack. You can no longer hear the voices of gods nor spirits. Your perception of the world around you become dull and uninspired. You lose 1 spell of the Guide’s choice.</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td><strong>Tongueless.</strong> You become unable to speak.</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td><strong>Broken Compass.</strong> Your will is broken, and you lose sight of the veil between dark and light. Unless it is obviously self-destructive, you will follow any commands other creatures issue to you.</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td><strong>Revulsion.</strong> You become overwhelmingly sickened by the company of others. While within 50 feet of another humanoid creature, you become Sapped.</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td><strong>The Shakes.</strong> Trembling at all times, you make attack rolls with disadvantage.</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td><strong>Compulsion.</strong> You fall under the effects of the Greed spell. The Guide decides what item you become obsessed with.</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td><strong>Babbler.</strong> You are constantly speaking in a strange, unknown language at a monotone volume.</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td><strong>Stalwart.</strong> Your will is unbroken. You become Sapped until your next Rest, but you do not gain a Corruption or become Corrupted.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mechanical-mishaps">Mechanical Mishaps<a class="headerlink" href="#mechanical-mishaps" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th align="center">d12</th>
+<th>Corruption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td><strong>Unfortunate Circumstance of Tremendous Proportions.</strong> A terrible accident occurs, the details of which are described by the Guide. You become Wounded.</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>Lethargy.</strong> A chemical reaction causes you to become suddenly lethargic. Your Stamina becomes 0 and you become Exhausted.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>The Quicksilver Mistake.</strong> You ingest a toxic chemical and become Corrupted until your next Rest.</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>Drain.</strong> Something drains your physical energy. You lose 1d6 Stamina and 1d6 Health.</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>Inflamed.</strong> Something causes you to become especially susceptible to pain. Until your next Rest, you take an additional 1d4 damage whenever you take damage.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td><strong>My Eyes!</strong> If you are not wearing protective gear to cover your eyes, you become Blinded. This condition lasts until your next Rest unless otherwise cured.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td><strong>Not Contagious.</strong> Something causes you to develop a rash until your next Rest. Due to your constant scratching, you roll initiative checks with disadvantage until your next Rest.</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td><strong>Befuddling Gas.</strong> A strange gas emanates and is accidentally inhaled. You make Wit checks with disadvantage until your next Rest.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td><strong>Red Eye.</strong> An explosive reaction flashes in your face, causing you to become Blinded until your next Rest but mysteriously invigorating you. You gain 3 temporary Stamina. These 3 temporary Stamina points cannot be regained, but can be added above the threshold of your default maximum Stamina.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td><strong>Rust.</strong> A cloud of gas explodes outward and immediately rusts any nonmagical metallic items in the room, including the ones worn by you. Any nonmagical and metallic armor, weaponry, or items within 10 feet of you become Broken.</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td><strong>Boom.</strong> Something causes a reactionary combustion. You take 2d6 damage.</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td><strong>Happy Accident.</strong> You are jolted with electricity and regain 1d4 Stamina. If this Mechanical Mishap occurs while crafting an item, you also craft and gain twice the amount of items that you would normally craft by default.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wound-table">Wound Table<a class="headerlink" href="#wound-table" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th align="center">d12</th>
+<th>Corruption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td><strong>Vicissitude.</strong> It strikes straight through your heart. You are reduced to 0 Health, become Unconscious, and lose 1 Mortality.</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>Severed.</strong> Your hand has been severed from your body. You only have use of one hand, and cannot use or wield any items or weapons that require two hands.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>Infection.</strong> A smaller injury of yours begins to seep with filth. A crown of yellowed sweat adorns your forehead. You become Sapped, your maximum Mortality is reduced by 1, and gain a persistent, hollow cough.</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>Numb.</strong> Your nerves have been damaged, and you become unable to feel pain. While you suffer from this Wound, the Guide does not disclose how much damage you take, but instead keeps track of the your Health in secret. The Guide only informs an Adventurer afflicted with this Wound whenever they fall Unconscious or regain consciousness.</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>Lethargic.</strong> Some part of you has given up. You cannot regain Stamina.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td><strong>Gored.</strong> A massive injury in your abdomen causes you to become all but defenseless to further attacks. Weary and constantly bent over in pain, you lose 1 additional Stamina whenever you lose Stamina or spend Stamina.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td><strong>Bleeding.</strong> Lacerations cover your body, too deep and abundant to be healed through normal means. You take 1d4 damage at the beginning of each round of combat. Outside of combat, you take 1d4 damage once every hour, unless you are Resting. Other creatures roll Wit checks with advantage when attempting to track a Bleeding creature due to the trail of blood they leave behind.</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td><strong>Gouged.</strong> Your eyes have been gouged out, gashed, or otherwise damaged beyond repair. You become Blinded.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td><strong>Concussion.</strong> A heavy blow to the head has made you despondent and hazy. You roll with disadvantage on all Wit checks.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td><strong>Limp.</strong> You have taken on a debilitating limp. You become Encumbered.</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td><strong>Charred.</strong> Your skin broils, and you are burned. You gain a permanent burn scar. Whenever you take damage, you take an additional 1d4 damage.</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td><strong>Grazed.</strong> You are able to narrowly escape what might have been a serious wound. You instead take 1d4 additional damage, and you do not gain a Wound or become Wounded.</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

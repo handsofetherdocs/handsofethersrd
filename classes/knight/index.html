@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Knight - Hands of Ether</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../lineages/lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/drake/">Drake</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/drow/">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../../lineages/custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../cleric/">Cleric</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../../conditions/">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../cleric/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../mage/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#knight">Knight</a></li>
+            <li><a href="#primary-ability-score">Primary Ability Score</a></li>
+            <li><a href="#primary-ability-guard">Primary Ability: Guard</a></li>
+            <li><a href="#knight-skills">Knight Skills</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="knight">Knight<a class="headerlink" href="#knight" title="Permanent link">#</a></h1>
+<p>Knights are servants, protectors, and enforcers to an oath, bond, or mission. They adorn themselves in heavy armor and wield hefty weaponry to protect
+themselves and their allies during their crusades of devotion, and to crush those that defy them. Some Knights are devoted to a certain noble or ruler, while others dedicate themselves to a deity who shares their virtues and tenants.    </p>
+<p>Due to their drive to protect that which they are devoted to, Knights are masters of warding and protection. Their unwavering devotion combined with their  tactical  prowess  make  them  fearsome combatants.  </p>
+<h3 id="primary-ability-score">Primary Ability Score<a class="headerlink" href="#primary-ability-score" title="Permanent link">#</a></h3>
+<p>Might</p>
+<h2 id="primary-ability-guard">Primary Ability: <strong>Guard</strong><a class="headerlink" href="#primary-ability-guard" title="Permanent link">#</a></h2>
+<p><strong>Cost: 1 Action</strong><br />
+You raise your shield to protect an ally from harm. You can grant an ally within your default melee range a bonus to their Defense equal to your currently wielded shield’s Defense bonus. This ability uses the same rules as raising a shield to protect yourself would normally use, but benefits your chosen ally instead of yourself.  </p>
+<p>If you would gain any additional benefits from raising a shield due to your skills or a spell’s effects, your Guarded ally gains those benefits as well. An ally’s Defense bonus they gain from being Guarded ends early if that ally moves outside of your default melee range or if you fall Unconscious.  </p>
+<hr />
+<h2 id="knight-skills">Knight Skills<a class="headerlink" href="#knight-skills" title="Permanent link">#</a></h2>
+<hr />
+<p><strong>Bastion.</strong> At the beginning of each round, any allies within 20 feet of you can choose to immediately move to within 5 feet of you as a Reaction.   </p>
+<p><strong>Brute.</strong> Your default Defense becomes equal to your Might score.   </p>
+<p><strong>Cavalier.</strong> You have been trained to ride and fight atop a mount. You gain an animal companion of your choice that is at least one size larger than you. It costs 1 Action to mount or dismount this companion. While riding your mount, all melee attack rolls against you are made with disadvantage. Each time you are dealt damage while riding on your mount, you must succeed a Might check against a DC of 10 or fall from your mount. Your Speed while riding becomes the Speed of your mount.   </p>
+<p><strong>Challenger.</strong> After dealing damage to an enemy, you can spend 2 Stamina to draw that enemy's attention as a Reaction. The affected target cannot use any Actions to make attack rolls against any target other than you. This effect lasts until you make an attack roll against a different creature or if either you or the affected target become Unconscious.   </p>
+<p><strong>Courtier.</strong> You gain the High language. You also roll with advantage on any Will check made to appease or influence authoritative figures, such as nobles or individuals of high social station.   </p>
+<p><strong>Conqueror.</strong> Each time you reduce an enemy to 0 Health, you regain 1d4 Stamina as a Reaction.   </p>
+<p><strong>Crusader.</strong> As a Free Action, you can spend 2 Stamina to enter into a state of stalwart dedication for up to 1 minute. You become immune to both the Prone and Encumbered conditions for the duration.   </p>
+<p><strong>Defensive Unity.</strong> You enforce cooperation amongst your allies to defend each other in battle. All allies within 10 feet of you gain a +1 bonus to their Defense.   </p>
+<p><strong>Deflect.</strong> Whenever an enemy misses you with an attack roll, you can spend 2 Stamina to redirect that failed attack towards another creature of your choice as a Reaction. As a result, the attack automatically hits a creature of your choice within your default melee range.   </p>
+<p><strong>Divert.</strong> You can use your shield to redirect attacks made against you towards other nearby enemies. Whenever you block an attack roll with a raised shield, you can spend 2 Stamina to divert that attack towards another enemy as a Reaction. The enemy you aim this diverted attack towards must be within your default melee range. This diverted attack automatically hits your chosen target. The new target takes the same amount of damage that the attack would normally inflict if it had hit you.   </p>
+<p><strong>Guardian.</strong> Once per round, you can use your Guard ability as a Reaction.   </p>
+<p><strong>Goad.</strong> You can spend 2 Stamina to goad an enemy of your choice who can hear you. The target rolls attack rolls with disadvantage against any creature other than you for 1 minute.   </p>
+<p><strong>Hold the Line.</strong> You can spend 2 Stamina to adopt an especially defensive fighting stance as a Free Action. This stance lasts until the beginning of your next turn. While in this stance, you can make an attack roll against any enemy that moves within melee range of you as a Reaction. If any of these provoked attack rolls hit, the target becomes Restrained until the end of the next round.   </p>
+<p><strong>Indomitable.</strong> With an unbending loyalty only to yourself, you roll Will checks with advantage to resist spell effects. You also become immune to the Charmed condition. 72   </p>
+<p><strong>Inquisitor.</strong> Commoners and other denizens of settlements naturally look to you for guidance and protection. Once per Rest, you can use this authority to ask them one of the three following questions, and receive a truthful answer in response.  </p>
+<ul>
+<li>
+<p><u>Trouble:</u> They tell you about an individual or group that has been causing trouble in the surrounding area.  </p>
+</li>
+<li>
+<p><u>Root:</u> They tell you where the leader is, and tell you a few details about them.  </p>
+</li>
+<li>
+<p><u>Grounds:</u> They tell you about local areas to avoid, and what sort of dangers lurk within.   </p>
+</li>
+</ul>
+<p><strong>Ironclad.</strong> While you are wielding a shield, the hand that the shield is being wielded in is considered free and unoccupied. In addition, armor worn by you and shields wielded by you weigh 0 Bulk to you.   </p>
+<p><strong>Lancer.</strong> You can make an attack roll with a reach weapon against an enemy who moves within melee range of you as a Reaction. In addition, you gain a +1 bonus to attack rolls made with reach weapons.   </p>
+<p><strong>Martyr.</strong> As a Reaction to an ally within 10 feet of you being hit with an attack roll, you can choose to leap between the attacker and your targeted ally. Your ally takes no damage, and you automatically take the damage dealt instead.   </p>
+<p><strong>Paladin.</strong> You are a guardian of a sacred order, or an agent to some holy spirit. You have been granted a sliver of divine power. You gain 2 Cleric spells of your choice which cost 3 Mana or less. You can cast each of these spells once per Rest. In addition, you receive prophetic dreams.   </p>
+<p><strong>Profane.</strong> You are, or once were, a servile guardian of some dark, eldritch force. You gain 2 Witch spells of your choice which cost 3 Mana or less. You can cast each of these spells once per Rest. In addition, you are plagued by nightmares.   </p>
+<p><strong>Protective Ingenuity.</strong> You can use any item that is 5 Bulk or less as if it were a shield. As a Reaction to reducing an enemy to 0 Health, you can wield and use that enemy�s corpse to protect yourself as if it were a shield, even if you have no free or unoccupied hands.   </p>
+<p><strong>Refute.</strong> Whenever you use your Guard ability in an attempt to protect an ally from an enemy's attack, that attacker's weapon properties, skill effects, and spell effects have no effect on your Guarded ally, even if the attack roll made against your Guarded ally is a hit.   </p>
+<p><strong>Resolute.</strong> With a heart strong with resolve and grit, you are immune to the Stunned condition.   </p>
+<p><strong>Salt of the Earth.</strong> Being a noble and chivalrous sort, commoners are inclined to house and feed you and your party. They will even go so far as to hide you from others who are looking for you.   </p>
+<p><strong>Seige.</strong> You can spend 1 Action and 2 Stamina to break a structure that is 10 Bulk or less, such as a door or wall. A structure of your choice within melee range of you becomes Broken.   </p>
+<p><strong>Sheltering reach.</strong> Your Guard ability gains a range of your default melee range + 5 additional feet.   </p>
+<p><strong>Shephard.</strong> Whenever you use your Guard ability to successfully protect an ally from an attack roll, you can move that ally 10 feet in a direction of your choice as a Reaction.   </p>
+<p><strong>Shield Bash.</strong> You can spend 1 Action to make an attack roll with a shield you are wielding as if it were a light melee weapon. On a hit, the target takes damage as normal and must succeed a Might check against a DC of 10 or become Prone.   </p>
+<p><strong>Solidarity.</strong> Allies within 10 feet of you add a bonus equal to your Might score modifier to all Might checks they make. 73   </p>
+<p><strong>Sunder.</strong> You can spend 1 Action and 2 Stamina in an attempt to destroy a single nonmagical weapon, item, or shield being wielded by another creature within range. Make an attack roll against the target wielding the item you are attempting to break. On a hit, the targeted item becomes Broken.   </p>
+<p><strong>Steadfast.</strong> You roll all Might checks with advantage whenever you are raising a shield to protect yourself.   </p>
+<p><strong>Sword and Board.</strong> Any shield you use gains an additional Defense bonus equal to your Might score modifier while you wield it.   </p>
+<p><strong>Squire.</strong> Your heroic deeds have drawn the attention of an aspiring young squire. You gain a squire as a companion. If your squire dies, you can choose to attract another squire or choose to lose this skill and gain a new skill of your choice.   </p>
+<p><strong>Tenacious.</strong> You are especially durable and determined. Once per Rest, whenever you become Exhausted, you can choose to regain 1d4 Stamina as a Reaction.  </p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

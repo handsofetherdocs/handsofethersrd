@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Drow - Hands of Ether</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Hands of Ether</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../../charactercreation/">Character Creation</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../lineages/">Lineages</a>
+</li>
+                                    
+<li >
+    <a href="../avan/">Avan</a>
+</li>
+                                    
+<li >
+    <a href="../avatar/">Avatar</a>
+</li>
+                                    
+<li >
+    <a href="../dym/">Dym</a>
+</li>
+                                    
+<li >
+    <a href="../drake/">Drake</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Drow</a>
+</li>
+                                    
+<li >
+    <a href="../dwarf/">Dwarf</a>
+</li>
+                                    
+<li >
+    <a href="../elf/">Elf</a>
+</li>
+                                    
+<li >
+    <a href="../faun/">Faun</a>
+</li>
+                                    
+<li >
+    <a href="../fir/">Fir</a>
+</li>
+                                    
+<li >
+    <a href="../geni/">Geni</a>
+</li>
+                                    
+<li >
+    <a href="../gnome/">Gnome</a>
+</li>
+                                    
+<li >
+    <a href="../goblin/">Goblin</a>
+</li>
+                                    
+<li >
+    <a href="../golem/">Golem</a>
+</li>
+                                    
+<li >
+    <a href="../halfling/">Halfling</a>
+</li>
+                                    
+<li >
+    <a href="../human/">Human</a>
+</li>
+                                    
+<li >
+    <a href="../hyde/">Hyde</a>
+</li>
+                                    
+<li >
+    <a href="../kryn/">Kryn</a>
+</li>
+                                    
+<li >
+    <a href="../mer/">Mer</a>
+</li>
+                                    
+<li >
+    <a href="../mica/">Mica</a>
+</li>
+                                    
+<li >
+    <a href="../minotaur/">Minotaur</a>
+</li>
+                                    
+<li >
+    <a href="../nova/">Nova</a>
+</li>
+                                    
+<li >
+    <a href="../ogre/">Ogre</a>
+</li>
+                                    
+<li >
+    <a href="../orc/">Orc</a>
+</li>
+                                    
+<li >
+    <a href="../zurn/">Zurn</a>
+</li>
+                                    
+<li >
+    <a href="../custom/">Custom Lineages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../classes/classes/">Classes</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/bard/">Bard</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/cleric/">Cleric</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/knight/">Knight</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/mage/">Mage</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/monk/">Monk</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/ranger/">Ranger</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/rogue/">Rogue</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/sage/">Sage</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/warrior/">Warrior</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/witch/">Witch</a>
+</li>
+                                    
+<li >
+    <a href="../../classes/generalskills/">General Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../adventuring/">Adventuring</a>
+</li>
+                                    
+<li >
+    <a href="../../combat/">Combat</a>
+</li>
+                                    
+<li >
+    <a href="../../magic/">Magic</a>
+</li>
+                                    
+<li >
+    <a href="../../conditions/">Conditions</a>
+</li>
+                                    
+<li >
+    <a href="../../catastrophes/">Catastrophes</a>
+</li>
+                                    
+<li >
+    <a href="../../items/">Items</a>
+</li>
+                                    
+<li >
+    <a href="../../companions/">Companions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../guideresources/">Guide Resources</a>
+</li>
+                                    
+<li >
+    <a href="../../encounters/">Encounters</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../drake/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../dwarf/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#drow">Drow</a></li>
+            <li><a href="#lineage-properties">Lineage Properties</a></li>
+            <li><a href="#lineage-skills">Lineage Skills</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="drow">Drow<a class="headerlink" href="#drow" title="Permanent link">#</a></h1>
+<p>Gaunt, coal-skinned elves with amber eyes that prefer cold and wet climates. They live in and around brine- encrusted seaside caverns, and subside off of a diet of fish and spices. Most have bitter demeanors, and prefer their own company. They worship their ancestors, and perform sacred rites of self- mortification to seek their forbearer’s attention.</p>
+<h3 id="lineage-properties">Lineage Properties<a class="headerlink" href="#lineage-properties" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ability Score Improvements</td>
+<td>+2 Agility</td>
+</tr>
+<tr>
+<td>Health at 1st Level</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Health Increase at Level Up</td>
+<td>1d6</td>
+</tr>
+<tr>
+<td>Size</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>40</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lineage-skills">Lineage Skills<a class="headerlink" href="#lineage-skills" title="Permanent link">#</a></h3>
+<p><strong>Keen Vision.</strong> Drow can see in obscured areas out to a range of 50 feet as if it the area was not obscured.</p>
+<p><strong>Shadow Skimmer.</strong> While they are positioned within an obscured area, Drow make all attack rolls with advantage.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
