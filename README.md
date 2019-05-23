@@ -5,3 +5,5 @@ Using MkDocs, I put together the text from the [Hands of Ether](http://palespine
 Includes everything from the manual, bar the pictures.
 
 You can access the site here: https://handsofetherdocs.github.io/handsofethersrd/
+
+Enjoy! :D
