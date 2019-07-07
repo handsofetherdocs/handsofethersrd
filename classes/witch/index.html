@@ -397,8 +397,26 @@ You send esoteric energies towards a creature of your choice who you can see. Th
 <hr />
 <h2 id="witch-cantrips">Witch Cantrips<a class="headerlink" href="#witch-cantrips" title="Permanent link">#</a></h2>
 <hr />
-<p><div style="display: grid; grid-template-columns: 1fr 1fr;">
-<div style="grid-column: 1/2; margin-right: 13px;">
+<p><style>
+    @media (min-width: 601px){
+    #spell-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }</p>
+<pre><code>#spell-first-column {
+    grid-column: 1/2;
+    margin-right: 13px;
+}
+
+#spell-second-column {
+    grid-columns: 2/3;
+    margin-left: 13px;
+}
+}
+</code></pre>
+<p></style>
+<div id="spell-grid">
+<div id="spell-first-column">
 <strong>Air</strong><br />
 <em>Casting Time:</em> 1 Action<br />
 <em>Duration:</em> Instant<br />
@@ -454,7 +472,7 @@ You send esoteric energies towards a creature of your choice who you can see. Th
 <em>Range:</em> 500 feet  </p>
 <p>You summon 10 foot radius cloud of mist in a place of your choice within range. The affected area is considered obscured terrain. For the duration, the cloud can be moved up to 50 feet in a direction of your choice as a Free Action.  </p>
 <p></div>
-<div style="grid-columns: 2/3; margin-left: 13px"></p>
+<div id="spell-second-column"></p>
 <p><strong>Green Hand</strong><br />
 <em>Casting Time:</em> 1 Action<br />
 <em>Duration:</em> 10 minutes<br />
@@ -508,8 +526,8 @@ You send esoteric energies towards a creature of your choice who you can see. Th
 <hr />
 <h2 id="witch-spells">Witch Spells<a class="headerlink" href="#witch-spells" title="Permanent link">#</a></h2>
 <hr />
-<p><div style="display: grid; grid-template-columns: 1fr 1fr;">
-<div style="grid-column: 1/2; margin-right: 13px;">
+<p><div id="spell-grid">
+<div id="spell-first-column">
 <strong>Amalgamate</strong><br />
 <em>Casting Time:</em> 10 Actions<br />
 <em>Duration:</em> 1 hour<br />
@@ -727,7 +745,7 @@ You send esoteric energies towards a creature of your choice who you can see. Th
 <em>Range:</em> 50 feet  </p>
 <p>Black barbed tentacles sprout from the ground and whip at the flesh of an enemy of your choice. The target takes 2d6 damage, and must succeed a Might check against your spell DC or become Bleeding. If the target rolls a natural 1 on their Might check to resist this spell, they also become Wounded in addition to Bleeding.   </p>
 <p></div>
-<div style="grid-columns: 2/3; margin-left: 13px"></p>
+<div id="spell-second-column"></p>
 <p><strong>Leech</strong><br />
 <em>Casting Time:</em> 1 Action<br />
 <em>Duration:</em> Instant<br />
